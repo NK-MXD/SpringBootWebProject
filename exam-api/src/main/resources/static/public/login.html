@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <link rel='stylesheet' href='https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css'>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat:500,700&amp;display=swap'>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<form>
+
+    <div class="segment">
+        <h1>Sign up</h1>
+    </div>
+
+    <label for="username">
+        <input id="username" type="text" placeholder="UserName" />
+    </label>
+
+    <label for="password">
+        <input id="password" type="password" placeholder="Password" />
+    </label>
+    <button id="Loginbtn" class="red" type="submit"><i class="icon ion-md-lock"></i> Log in</button>
+
+    <div class="segment">
+        <button class="unit" type="button"><i class="icon ion-md-arrow-back"></i></button>
+        <button class="unit" type="button"><i class="icon ion-md-bookmark"></i></button>
+        <button class="unit" type="button"><i class="icon ion-md-settings"></i></button>
+    </div>
+
+    <div class="input-group">
+        <label>
+            <input type="text" placeholder="Email Address" />
+        </label>
+        <button class="unit" type="button"><i class="icon ion-md-search"></i></button>
+    </div>
+
+</form>
+<!-- partial -->
+<script src="js/jquery1.11.3.min.js" type="text/javascript">
+    $(function(){
+        var $Loginbtn=$("#Loginbtn");
+        var $username=$("#username");
+        var $password=$("#password");
+        $btn.on(
+            "click",function(){
+                $.ajax({
+                    url:"js/data.txt",
+                    data:"$username+$password",
+                    dataType:"jason",
+                    type:"post",
+                    success:function(){
+                        if(data==Fail){
+                            console.log(data)
+                            alert("登陆失败！请重新输入")
+                        }else{
+                            console.log(data)
+                            alert("登陆成功！")
+                        }
+                    }
+                })
+            })
+    })
+</script>
+
+</body>
+</html>

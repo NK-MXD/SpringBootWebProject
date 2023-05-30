@@ -149,6 +149,10 @@ export default {
         {
           value: 3,
           label: '判断题'
+        },
+        {
+          value: 4,
+          label: '主观题'
         }
       ],
 

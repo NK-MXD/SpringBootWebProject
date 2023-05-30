@@ -37,7 +37,7 @@ public class ExamApplication implements WebMvcConfigurer {
 
 
 		log.info("\n----------------------------------------------------------\n\t" +
-				"云帆考试系统启动成功，访问路径如下:\n\t" +
+				"六级考试系统启动成功，访问路径如下:\n\t" +
 				"本地路径: \t\thttp://localhost:" + port + path + "/\n\t" +
 				"网络地址: \thttp://" + ip + ":" + port + path + "/\n\t" +
 				"API文档: \t\thttp://" + ip + ":" + port + path + "/doc.html\n" +

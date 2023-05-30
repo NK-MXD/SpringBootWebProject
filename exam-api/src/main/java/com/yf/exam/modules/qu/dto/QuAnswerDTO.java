@@ -11,7 +11,7 @@ import java.io.Serializable;
 * 候选答案请求类
 * </p>
 *
-* @author 聪明笨狗
+* @author  
 * @since 2020-05-25 13:23
 */
 @Data

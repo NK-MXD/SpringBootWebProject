@@ -10,7 +10,7 @@ import lombok.Data;
 * 题库请求类
 * </p>
 *
-* @author 聪明笨狗
+* @author  
 * @since 2020-05-25 13:23
 */
 @Data
@@ -28,4 +28,6 @@ public class RepoRespDTO extends RepoDTO {
     @ApiModelProperty(value = "判断题数量", required=true)
     private Integer judgeCount;
 
+    @ApiModelProperty(value = "主观题数量", required=true)
+    private Integer textCount;
 }

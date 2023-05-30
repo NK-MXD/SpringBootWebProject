@@ -13,7 +13,7 @@ import org.apache.ibatis.annotations.Param;
 * 题库Mapper
 * </p>
 *
-* @author 聪明笨狗
+* @author  
 * @since 2020-05-25 13:23
 */
 public interface RepoMapper extends BaseMapper<Repo> {

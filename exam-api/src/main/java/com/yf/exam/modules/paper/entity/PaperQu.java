@@ -12,7 +12,7 @@ import lombok.Data;
 * 试卷考题实体类
 * </p>
 *
-* @author 聪明笨狗
+* @author  
 * @since 2020-05-25 17:31
 */
 @Data

@@ -14,7 +14,7 @@ import java.util.Date;
 * 错题本实体类
 * </p>
 *
-* @author 聪明笨狗
+* @author  
 * @since 2020-05-27 17:56
 */
 @Data

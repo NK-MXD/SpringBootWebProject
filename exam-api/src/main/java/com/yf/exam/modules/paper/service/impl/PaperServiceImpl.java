@@ -53,7 +53,7 @@ import java.util.*;
 * 语言设置 服务实现类
 * </p>
 *
-* @author 聪明笨狗
+* @author  
 * @since 2020-05-25 16:33
 */
 @Service
@@ -256,6 +256,17 @@ public class PaperServiceImpl extends ServiceImpl<PaperMapper, Paper> implements
                 if(item.getJudgeCount() > 0) {
                     List<Qu> judgeList = quService.listByRandom(item.getRepoId(), QuType.JUDGE, excludes,
                             item.getJudgeCount());
+                    for (Qu qu : judgeList) {
+                        PaperQu paperQu = this.processPaperQu(item, qu);
+                        quList.add(paperQu);
+                        excludes.add(qu.getId());
+                    }
+                }
+
+                // 判断题
+                if(item.getTextCount() > 0) {
+                    List<Qu> judgeList = quService.listByRandom(item.getRepoId(), QuType.TEXT, excludes,
+                            item.getTextCount());
                     for (Qu qu : judgeList) {
                         PaperQu paperQu = this.processPaperQu(item, qu);
                         quList.add(paperQu);

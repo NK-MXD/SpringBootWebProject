@@ -10,7 +10,7 @@ import lombok.Data;
 * 考试题库数据传输类
 * </p>
 *
-* @author 聪明笨狗
+* @author  
 * @since 2020-09-05 11:14
 */
 @Data
@@ -28,5 +28,8 @@ public class ExamRepoExtDTO extends ExamRepoDTO {
     
     @ApiModelProperty(value = "判断题总量", required=true)
     private Integer totalJudge;
+
+    @ApiModelProperty(value = "主观题总量", required=true)
+    private Integer totalText;
     
 }

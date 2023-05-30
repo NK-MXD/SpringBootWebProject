@@ -33,10 +33,22 @@ public class UserUtils {
      * @param throwable
      * @return
      */
-    public static boolean isAdmin(boolean throwable){
+    public static boolean isAdmin(boolean throwable) {
         try {
             SysUserLoginDTO dto = ((SysUserLoginDTO) SecurityUtils.getSubject().getPrincipal());
             return dto.getRoles().contains("sa");
+        } catch (Exception e) {
+            if (throwable) {
+                throw new ServiceException(ApiError.ERROR_10010002);
+            }
+        }
+
+        return false;
+    }
+    public static boolean isTeacher(boolean throwable){
+        try {
+            SysUserLoginDTO dto = ((SysUserLoginDTO) SecurityUtils.getSubject().getPrincipal());
+            return dto.getRoles().contains("teacher");
         }catch (Exception e){
             if(throwable){
                 throw new ServiceException(ApiError.ERROR_10010002);

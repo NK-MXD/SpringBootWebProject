@@ -27,7 +27,7 @@ import org.springframework.web.bind.annotation.RestController;
 * 题库控制器
 * </p>
 *
-* @author 聪明笨狗
+* @author  
 * @since 2020-05-25 13:25
 */
 @Api(tags={"题库"})

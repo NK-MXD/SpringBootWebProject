@@ -56,6 +56,16 @@
               答题结果：{{ myRadio[item.id] }}
             </el-col>
 
+            <el-col v-if="item.answered && item.isRight" style="text-align: right; color: #24da70;">
+              得分： 
+              <el-input-number v-model="item.actualScore" :min="0" :max="item.score"></el-input-number>
+            </el-col>
+
+            <el-col v-if="!item.answered || (item.answered && !item.isRight)" style="text-align: right; color: #ff0000;">
+              得分： 
+              <el-input-number v-model="item.actualScore" :min="0" :max="item.score"></el-input-number>
+            </el-col>
+
           </el-row>
 
         </div>
@@ -97,6 +107,16 @@
 
             <el-col v-if="item.answered && item.isRight" :span="12" style="text-align: right; color: #24da70;">
               答题结果：{{ myMulti[item.id].join(',') }}
+            </el-col>
+
+            <el-col v-if="item.answered && item.isRight" style="text-align: right; color: #24da70;">
+              得分： 
+              <el-input-number v-model="item.actualScore" :min="0" :max="item.score"></el-input-number>
+            </el-col>
+
+            <el-col v-if="!item.answered || item.answered && !item.isRight" style="text-align: right; color: #ff0000;">
+              得分： 
+              <el-input-number v-model="item.actualScore" :min="0" :max="item.score"></el-input-number>
             </el-col>
 
           </el-row>

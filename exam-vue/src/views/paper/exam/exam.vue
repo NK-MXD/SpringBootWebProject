@@ -48,6 +48,13 @@
             </el-row>
           </div>
 
+          <div v-if="paperData.judgeList!==undefined && paperData.textList.length > 0">
+            <p class="card-title">主观题</p>
+            <el-row :gutter="24" class="card-line">
+              <el-tag v-for="item in paperData.textList" :type="cardItemClass(item.answered, item.quId)" @click="handSave(item)">{{ item.sort+1 }}</el-tag>
+            </el-row>
+          </div>
+
         </el-card>
 
       </el-col>

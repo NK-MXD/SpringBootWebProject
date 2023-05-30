@@ -75,4 +75,16 @@ public class ExamRepo extends Model<ExamRepo> {
     @TableField("judge_score")
     private Integer judgeScore;
     
+        /**
+    * 主观题数量
+    */
+    @TableField("text_count")
+    private Integer textCount;
+    
+    /**
+    * 主观题分数
+    */
+    @TableField("text_score")
+    private Integer textScore;
+    
 }

@@ -51,6 +51,12 @@
         prop="createTime"
       />
 
+      <el-table-column
+        label="主观题数量"
+        prop="textCount"
+        align="center"
+      />
+
     </template>
 
   </data-table>

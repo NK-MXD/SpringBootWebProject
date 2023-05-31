@@ -1,146 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab02ea98-d9ae-46fd-8f1e-71f662b87a8f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-local.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-local.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/app.9603a9ac.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/static/js/app.9603a9ac.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-14ca1730.9495e461.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-14ca1730.9495e461.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-151a66b4.fbf64cc4.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-151a66b4.fbf64cc4.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-1765565f.c5e7f6e3.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-1765565f.c5e7f6e3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-1d98d7c8.d7a8d4a3.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-1d98d7c8.d7a8d4a3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-2193b0d6.86415bc7.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-2193b0d6.86415bc7.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-232a4131.98d03a7e.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-232a4131.98d03a7e.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-29be97b1.6a3fde93.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-29be97b1.6a3fde93.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-2d0f1194.e37275a7.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-2d0f1194.e37275a7.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-2d2109eb.2c1ae7ef.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-2d2109eb.2c1ae7ef.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-2d230fe7.64a37c43.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-2d230fe7.64a37c43.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-30ca8599.625e7aea.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-30ca8599.625e7aea.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-403a4f94.388c2fec.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-403a4f94.388c2fec.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-4175a80a.de9391b1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-4175a80a.de9391b1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-42333d6a.b37272cd.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-42333d6a.b37272cd.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-67de726a.5586ab90.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-67de726a.5586ab90.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-6abe7724.56f0436d.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-6abe7724.56f0436d.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-88205686.0e1f30b4.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-88205686.0e1f30b4.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-88ffa5a0.91af42e1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-88ffa5a0.91af42e1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-8acfda88.5a55ed8d.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-8acfda88.5a55ed8d.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-a5ccf0f2.e101e80e.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-a5ccf0f2.e101e80e.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-a5f84710.c51d67ef.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-a5f84710.c51d67ef.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-ab13d2fa.73955774.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-ab13d2fa.73955774.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-ba8dbfe2.0a82d9af.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-ba8dbfe2.0a82d9af.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-bbd00978.e336ceb5.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-bbd00978.e336ceb5.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-ce337f74.7b3b310d.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-ce337f74.7b3b310d.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-cf77194c.0330624b.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-cf77194c.0330624b.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-d875fac6.cf42dcd7.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-d875fac6.cf42dcd7.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-elementUI.93e9ea8b.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-elementUI.93e9ea8b.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-libs.ad80885e.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-libs.ad80885e.js" afterDir="false" />
+    <list default="true" id="ab02ea98-d9ae-46fd-8f1e-71f662b87a8f" name="Default Changelist" comment="Default Changelist">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/paper/service/PaperQuService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="54" column="20" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/softwareSpace/Evironment/idea/repository/com/baomidou/mybatis-plus-extension/3.4.1/mybatis-plus-extension-3.4.1.jar!/com/baomidou/mybatisplus/extension/service/IService.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1122">
-              <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/paper/service/impl/PaperServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="288" column="34" selection-start-line="288" selection-start-column="20" selection-end-line="288" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="161" column="43" selection-start-line="161" selection-start-column="43" selection-end-line="161" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/paper/entity/PaperQu.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="470">
-              <caret line="71" column="31" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/paper/entity/PaperQuAnswer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-57">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/paper/mapper/PaperQuAnswerMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/paper/entity/Paper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1489">
-              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/paper/mapper/PaperQuMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -199,11 +76,13 @@
       </list>
     </option>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="D:\softwareSpace\Evironment\idea\repository" />
-        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
         <option name="userSettingsFile" value="D:\softwareSpace\idea\IntelliJ IDEA 2019.1.2\plugins\maven\lib\maven3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -229,6 +108,9 @@
       <select />
     </treeState>
   </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
   <component name="ProjectConfigurationFiles">
     <option name="files">
       <list>
@@ -243,6 +125,7 @@
     <option name="width" value="1718" />
     <option name="height" value="1774" />
   </component>
+  <component name="ProjectId" id="2QXoGF5gLuSitkNmwR9n9hk7zhK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -358,36 +241,15 @@
       </pane>
     </panes>
   </component>
-  <component name="PropertiesComponent">
-    <property name="RequestMappingsPanelOrder0" value="0" />
-    <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelWidth0" value="75" />
-    <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "last_opened_file_path": "C:/Users/civilizwa/Desktop/SpringBootWebProject/exam-api"
+  }
+}]]></component>
   <component name="RunManager">
     <configuration name="ExamApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="exam-api" />
@@ -397,14 +259,7 @@
       </method>
     </configuration>
   </component>
-  <component name="SbtLocalSettings">
-    <option name="projectSyncType">
-      <map>
-        <entry key="$PROJECT_DIR$/../../../ideaPro/computerStructure/chisel-design-for-student" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../ideaPro/computerStructure/chisel-design-for-teacher" value="PREVIEW" />
-      </map>
-    </option>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -466,6 +321,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/core/exception/ServiceException.java">

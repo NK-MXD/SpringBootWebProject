@@ -44,18 +44,18 @@
         prop="judgeCount"
         align="center"
       />
-
+      <el-table-column
+        label="主观题数量"
+        prop="textCount"
+        align="center"
+      />
       <el-table-column
         label="创建时间"
         align="center"
         prop="createTime"
       />
 
-      <el-table-column
-        label="主观题数量"
-        prop="textCount"
-        align="center"
-      />
+
 
     </template>
 

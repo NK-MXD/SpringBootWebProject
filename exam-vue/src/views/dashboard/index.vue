@@ -8,7 +8,7 @@
             <el-button style="float: right; padding: 3px 0; font-size: 12px" type="text">系统版本：{{ version }}</el-button>
           </div>
 
-          <div style="line-height: 32px;">
+          <div style="line-height: 25px;">
 
             <div class="title" style="padding-top: 0px">系统介绍</div>
             CET6报名考试系统是一款基于SpringBoot+Vue开发的考试系统。包含在线考试、用户体系、错题训练、考试规则、智能算分等考试功能，流程通畅。
@@ -36,6 +36,10 @@
               <div>在线阅卷：教师进行主观题在线阅卷</div>
             </div>
 
+            <div class="title">小组成员</div>
+            <div>
+              <div>孟笑朵，刘思颖，石家琪，陈睿颖</div>
+            </div>  
           </div>
 
         </el-card>

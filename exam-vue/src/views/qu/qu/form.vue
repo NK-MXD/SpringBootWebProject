@@ -155,16 +155,13 @@ export default {
       }, {
         value: 2,
         label: '多选题'
-      },
-      {
+      }, {
         value: 3,
         label: '判断题'
-        },
-      {
+      }, {
         value: 4,
         label: '主观题'
-      }
-      ],
+      }],
 
       postForm: {
         repoIds: [],
@@ -204,12 +201,18 @@ export default {
       if (v === 3) {
         this.postForm.answerList.push({ isRight: true, content: '正确', analysis: '' })
         this.postForm.answerList.push({ isRight: false, content: '错误', analysis: '' })
+        //this.postForm.answerList.push({ isRight: false, content: '错误', analysis: '' })
+
       }
 
       if (v === 1 || v === 2) {
         this.postForm.answerList.push({ isRight: false, content: '', analysis: '' })
         this.postForm.answerList.push({ isRight: false, content: '', analysis: '' })
         this.postForm.answerList.push({ isRight: false, content: '', analysis: '' })
+        this.postForm.answerList.push({ isRight: false, content: '', analysis: '' })
+      }
+
+      if (v == 4) {
         this.postForm.answerList.push({ isRight: false, content: '', analysis: '' })
       }
     },
@@ -271,6 +274,8 @@ export default {
           return
         }
       }
+
+      
 
       this.$refs.postForm.validate((valid) => {
         if (!valid) {

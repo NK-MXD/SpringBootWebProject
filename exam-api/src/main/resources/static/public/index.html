@@ -1,387 +1,203 @@
 ﻿<!DOCTYPE html>
 <html>
-	<head>
-		<!--首页-->
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-		<meta name="format-detection" content="telephone=no" />
-		<meta name="apple-mobile-web-app-capable" content="yes" />
-		<title>首页</title>
-		<link rel="stylesheet" type="text/css" href="css/public.css"/>
-		<link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css"/>
-		<link rel="stylesheet" type="text/css" href="css/style.css"/>
-		<script type="text/javascript" src="js/jquery1.11.3.min.js"></script>
-		<script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
-		<script type="text/javascript" src="js/index.js"></script>
-	</head>
-	<body>
-		<!--top-->
-		<div class="top" id="top">
-			<div class="wrap clearfloat">
-				<div class="logo"><a href="index.html"><img src="images/logo.png"/></a></div>
-				<div class="nav">
-					<ul class="clearfloat">
-						<li class="active">
-							<h2><a href="index.html">首页</a></h2>
-						</li>
-						<li>
-							<h2><a href="about.html">考试简介</a><span class="navBtn"></span></h2>
-
-						</li>
-						<li>
-							<h2><a href="course_list.html">考生须知</a><span class="navBtn"></span></h2>
-
-						</li>
-						<li>
-							<h2><a href="picture_list.html">考试时间</a><span class="navBtn"></span></h2>
-
-						</li>
-						<li>
-							<h2><a href="news_list.html">报名流程</a><span class="navBtn"></span></h2>
-
-						</li>
-						<li>
-							<h2><a href="">常见问题</a><span class="navBtn"></span></h2>
-
-						</li>
-						<li>
-							<h2><a href="login.html">学生报名</a><span class="navBtn"></span></h2>
-
-						</li>
-						<li>
-							<h2><a href="http://localhost:8101">登录后台</a><span class="navBtn"></span></h2>
-
-						</li>
-
-					</ul>
-				</div>
-				
-				<div class="topRight clearfloat">
-					<div class="topLang">
-						<span class="topLangBtn"></span>
-						<a class="topLangEn" href="">English</a>
-						<a class="topLangCh" href="">China</a>
-					</div>
-					<div class="topSearch">
-						<span class="topSearchBtn"></span>
-						<div class="topSearchWrap clearfloat">
-							<input type="text" name="" id="" value="请输入检索内容" placeholder=""/>
-							<button></button>
-						</div>
-					</div>
-				</div>
-				
-			</div>
-			<div class="muen">
-				<span class="muenX"></span>
-				<span class="muenY"></span>
-				<span class="muenZ"></span>
-			</div>
-		</div>
-		<!--top-->
-		
-		<!--banner轮播图-->
-		<div class="banner" id="banner">
-			<ul class="sliderBanner">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<title>首页</title>
+	<link rel="stylesheet" type="text/css" href="css/public.css"/>
+	<link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<script type="text/javascript" src="js/jquery1.11.3.min.js"></script>
+	<script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+</head>
+<body>
+<!--top-->
+<div class="top" id="top">
+	<div class="wrap clearfloat">
+		<div class="nav">
+			<ul class="clearfloat">
 				<li>
-					<a href=""><img src="temp/banner_img.jpg"/></a>
+					<h2 class="active"><a href="index.html">首页</a></h2>
 				</li>
 				<li>
-					<a href=""><img src="temp/banner_img.jpg"/></a>
+					<h2><a href="about.html">考试简介</a><span class="navBtn"></span></h2>
+
 				</li>
 				<li>
-					<a href=""><img src="temp/banner_img.jpg"/></a>
+					<h2><a href="notice.html">学生须知</a><span class="navBtn"></span></h2>
+
+				</li>
+				<li>
+					<h2><a href="picture_list.html">考试时间</a><span class="navBtn"></span></h2>
+
+				</li>
+				<li>
+					<h2><a href="news_list.html">报名流程</a><span class="navBtn"></span></h2>
+
+				</li>
+				<li>
+					<h2 ><a href="course_detial.html">常见问题</a><span class="navBtn"></span></h2>
+
+				</li>
+				<li>
+					<h2><a href="login.html">学生报名</a><span class="navBtn"></span></h2>
+
+				</li>
+				<li>
+					<h2><a href="http://localhost:8101">登录后台</a><span class="navBtn"></span></h2>
+
 				</li>
 			</ul>
 		</div>
-		<!--/banner-->
-		
-		<div class="homeBox homeIdear">
-			<div class="wrap">
-				<div class="homeTitle">
-					<h2>办学理念</h2>
-					<h3><span>The idea of running a school</span></h3>
-					<div class="line"></div>
-				</div>
-				<div class="homeIdearWrap">
-					<ul class="slideHomeIdear clearfloat">
-						<li>
-							<h3>1梅沙教育？</h3>
-							<div class="line"></div>
-							<div class="pic"><img src="temp/home_idear_img1.jpg"/></div>
-							<p>
-								从住宅配套到城市配套，从房子需求到客户需求，广州梅沙黑户需求，广州梅沙黑户需求，广州梅沙黑利伯瑞书院将是亲自然的学习乐园，而不是传统的学校注重更大面积的通风、采光……
-							</p>
-							<a href="">+</a>
-						</li>
-						<li>
-							<h3>2梅沙教育？</h3>
-							<div class="line"></div>
-							<div class="pic"><img src="temp/home_idear_img2.jpg"/></div>
-							<p>
-								从住宅配套到城市配套，从房子需求到客户需求，广州梅沙黑户需求，广州梅沙黑户需求，广州梅沙黑利伯瑞书院将是亲自然的学习乐园，而不是传统的学校注重更大面积的通风、采光……
-							</p>
-							<a href="">+</a>
-						</li>
-						<li>
-							<h3>3梅沙教育？</h3>
-							<div class="line"></div>
-							<div class="pic"><img src="temp/home_idear_img3.jpg"/></div>
-							<p>
-								从住宅配套到城市配套，从房子需求到客户需求，广州梅沙黑户需求，广州梅沙黑户需求，广州梅沙黑利伯瑞书院将是亲自然的学习乐园，而不是传统的学校注重更大面积的通风、采光……
-							</p>
-							<a href="">+</a>
-						</li>
-					</ul>
+
+		<div class="topRight clearfloat">
+			<div class="topLang">
+				<span class="topLangBtn"></span>
+				<a class="topLangEn" href="">English</a>
+				<a class="topLangCh" href="">China</a>
+			</div>
+			<div class="topSearch">
+				<span class="topSearchBtn"></span>
+				<div class="topSearchWrap clearfloat">
+					<input type="text" name="" id="" value="请输入检索内容" placeholder=""/>
+					<button></button>
 				</div>
 			</div>
 		</div>
-		
-		<div class="homeBox homeCour">
-			<div class="wrap">
-				<div class="homeTitle">
-					<h2>课程介绍</h2>
-					<h3><span>Course introduction</span></h3>
-					<div class="line"></div>
-				</div>
-				<div class="homeCourWrap">
-					<ul class="homeCourList clearfloat">
-						<li><a href="">
-							<div class="homeCourInner">
-								<div class="pic"><img src="images/home_cour_img1.png"/></div>
-								<h3>雪地课程</h3>
-								<h4>SNOW COURSE</h4>
-							</div>
-							<div class="homeCourTxt">
-								<h3>雪地课程</h3>
-								<h4>SNOW COURSE</h4>
-								<p>
-									主营帆船培训和航海夏、冬令营，
-									致力于青少年帆船运动的推广和航海
-									文化的传播。是中国大陆唯一获得英国皇家
-									游艇协会RYA认证的中心，并使用其
-									证教练团队。
-								</p>
-							</div>
-						</a></li>
-						<li><a href="">
-							<div class="homeCourInner">
-								<div class="pic"><img src="images/home_cour_img2.png"/></div>
-								<h3>海洋课程</h3>
-								<h4>MARINE CURRICULUM</h4>
-							</div>
-							<div class="homeCourTxt">
-								<h3>海洋课程</h3>
-								<h4>MARINE CURRICULUM</h4>
-								<p>
-									主营帆船培训和航海夏、冬令营，
-									致力于青少年帆船运动的推广和航海
-									文化的传播。是中国大陆唯一获得英国皇家
-									游艇协会RYA认证的中心，并使用其
-									证教练团队。
-								</p>
-							</div>
-						</a></li>
-						<li><a href="">
-							<div class="homeCourInner">
-								<div class="pic"><img src="images/home_cour_img3.png"/></div>
-								<h3>语言课程</h3>
-								<h4>LANGUAGE COURSE</h4>
-							</div>
-							<div class="homeCourTxt">
-								<h3>语言课程</h3>
-								<h4>LANGUAGE COURSE</h4>
-								<p>
-									主营帆船培训和航海夏、冬令营，
-									致力于青少年帆船运动的推广和航海
-									文化的传播。是中国大陆唯一获得英国皇家
-									游艇协会RYA认证的中心，并使用其
-									证教练团队。
-								</p>
-							</div>
-						</a></li>
-						<li><a href="">
-							<div class="homeCourInner">
-								<div class="pic"><img src="images/home_cour_img4.png"/></div>
-								<h3>综合课程</h3>
-								<h4>INTERATED COURSE</h4>
-							</div>
-							<div class="homeCourTxt">
-								<h3>综合课程</h3>
-								<h4>INTERATED COURSE</h4>
-								<p>
-									主营帆船培训和航海夏、冬令营，
-									致力于青少年帆船运动的推广和航海
-									文化的传播。是中国大陆唯一获得英国皇家
-									游艇协会RYA认证的中心，并使用其
-									证教练团队。
-								</p>
-							</div>
-						</a></li>
-					</ul>
-					
-				</div>
-				
-			</div>
+
+	</div>
+	<div class="muen">
+		<span class="muenX"></span>
+		<span class="muenY"></span>
+		<span class="muenZ"></span>
+	</div>
+</div>
+<!--top-->
+
+<!--banner-->
+<div class="banner" id="banner">
+	<ul class="sliderBanner">
+		<li>
+			<a href=""><img src="temp/banner_static.jpg"/></a>
+		</li>
+		<li>
+			<a href=""><img src="temp/banner_static.jpg"/></a>
+		</li>
+		<li>
+			<a href=""><img src="temp/banner_static.jpg"/></a>
+		</li>
+	</ul>
+
+	<img src="temp/banner_m1.png">
+</div>
+<!--/banner-->
+
+<div class="homeBox homeCour">
+	<div class="wrap">
+		<div class="homeTitle">
+			<h2>全国大学英语六级考试</h2>
+			<h3><span>Cet6</span></h3>
+			<div class="line"></div>
 		</div>
-		
-		<div class="homeBox homeJoin">
-			<div class="wrap">
-				<div class="homeTitle">
-					<h2>加入我们</h2>
-					<h3><span>Join us</span></h3>
-					<div class="line"></div>
-				</div>
-				<div class="homeJoinWrap">
-					<ul class="homeJoinList clearfloat">
-						<li>
-							<div class="pic"><img src="temp/home_join_img1.jpg"/></div>
-							<a href="" class="homeJoinBg">
-								<div class="homeJoinBgInner">
-									<h3>招生专区</h3>
-									<h4>ENROLMENT AREA<span></span></h4>
-								</div>
-							</a>
-						</li>
-						<li>
-							<div class="pic"><img src="temp/home_join_img2.jpg"/></div>
-							<a href="" class="homeJoinBg">
-								<div class="homeJoinBgInner">
-									<h3>招聘专区</h3>
-									<h4>RECRUITMENT AREA<span></span></h4>
-								</div>
-							</a>
-						</li>
-					</ul>
-					
-				</div>
-				
-				<div class="homeTitle">
-					<h2>校园动态</h2>
-					<h3><span>Campus dynamics</span></h3>
-					<div class="line"></div>
-				</div>
-				
-				<div class="homeCamWrap">
-					<ul class="homeCamList clearfloat">
-						<li>
-							<div class="pic"><a href=""><img src="temp/home_cum_img1.jpg"/></a></div>
-							<div class="homeCamCont">
-								<h3 class="single-line"><a href="">会员收费活动 | 英语思维之桌游系列</a></h3>
-								<h4>2018-07-10</h4>
-								<div class="line"></div>
-								<p class="multi-line">
-									我们为您准备了 30-500 人的各类活动专用场地，并配备了音箱、投影、桌椅、茶歇等增值服务。我们撤掉…
-								</p>
-								<a class="more" href="">MORE+</a>
-							</div>
-						</li>
-						<li>
-							<div class="pic"><a href=""><img src="temp/home_cum_img2.jpg"/></a></div>
-							<div class="homeCamCont">
-								<h3 class="single-line"><a href="">会员收费活动 | 英语思维之桌游系列</a></h3>
-								<h4>2018-07-10</h4>
-								<div class="line"></div>
-								<p class="multi-line">
-									我们为您准备了 30-500 人的各类活动专用场地，并配备了音箱、投影、桌椅、茶歇等增值服务。我们撤掉…
-								</p>
-								<a class="more" href="">MORE+</a>
-							</div>
-						</li>
-						<li>
-							<div class="pic"><a href=""><img src="temp/home_cum_img3.jpg"/></a></div>
-							<div class="homeCamCont">
-								<h3 class="single-line"><a href="">会员收费活动 | 英语思维之桌游系列</a></h3>
-								<h4>2018-07-10</h4>
-								<div class="line"></div>
-								<p class="multi-line">
-									我们为您准备了 30-500 人的各类活动专用场地，并配备了音箱、投影、桌椅、茶歇等增值动专用场地，并配备了音箱、投影、桌椅、茶歇等增值服务。我们撤掉…
-								</p>
-								<a class="more" href="">MORE+</a>
-							</div>
-						</li>
-					</ul>
-				</div>
-				
-			</div>
+		<div class="homeCourWrap">
+			<ul class="homeCourList clearfloat">
+				<li><a href="about.html">
+					<div class="homeCourWrap">
+						<div class="pic"><img src="temp/step1.png"/></div>
+						<h3>进入报名</h3>
+						<h4>SNOW COURSE</h4>
+					</div>
+				</a></li>
+				<li><a href="about.html">
+					<div class="homeCourWrap">
+						<div class="pic"><img src="temp/step2.png"/></div>
+						<h3>进入报名</h3>
+						<h4>SNOW COURSE</h4>
+					</div>
+				</a></li>
+				<li><a href="about.html">
+					<div class="homeCourWrap">
+						<div class="pic"><img src="temp/step3.png"/></div>
+						<h3>找回已报名账号</h3>
+						<h4>Find ID</h4>
+					</div>
+				</a></li>
+				<li><a href="">
+					<div class="homeCourInner">
+						<div class="pic"><img src="temp/step4.png"/></div>
+						<h3>常见问题</h3>
+						<h4>QUESTIONS</h4>
+					</div>
+					<div class="homeCourTxt">
+						<h3>你所遇到的问题</h3>
+						<h4>QUESTIONS</h4>
+						<p>
+							我们也不知道答案(doge)
+						</p>
+					</div>
+				</a></li>
+			</ul>
+
 		</div>
-		
-		<div class="homeLink">
-			<div class="wrap">
-				<div class="homeTitle">
-					<h2>友情链接</h2>
-					<h3><span>Friendship link</span></h3>
-					<div class="line"></div>
-				</div>
-				<div class="homeLinkWrap">
-					<a href="">万科Vanke</a><a href="">万有引力潜水</a> <a href="">万科Vanke</a><a href="">万有引力潜水</a><a href="">万科Vanke</a><a href="">万科Vanke</a><a href="">万科Vanke</a><a href="">万有引力潜水</a><a href="">宅宅网</a><a href="">万有引力潜水</a><a href="">万有引力潜水</a><a href="">在线动画</a><a href="">未来影院</a> <a href="">里番动漫</a> <a href="">没有广告</a> <a href="">吉吉影音</a><a href="">影视大全</a><a href="">万有引力潜水</a>                    
-				</div>
-				
-			</div>
+
+	</div>
+</div>
+
+<div class="homeBox homeJoin">
+	<div class="wrap">
+		<div class="homeTitle">
+			<h2>CET考试最新动态</h2>
+			<h3><span>THE LATEST</span></h3>
+			<div class="line"></div>
 		</div>
-		
-		
-		
+		<div class="homeJoinWrap">
+			<ul class="homeJoinList clearfloat">
+				<li>
+					<div class="pic"><img src="temp/bg1.jpg"/></div>
+					<a href="" class="homeJoinBg">
+						<div class="homeJoinBgInner">
+							<h3>2023年上半年考试时间</h3>
+							<h4>笔试：6-17</h4>
+							<h4>上午：英语、日语、德语、法语四级</h4>
+							<h4>下午：英语、日语、德语、法语六级</h4>
+							<h4>口语</h4>
+							<h4>5-20:英语四级    5-21：英语六级</h4>
+							<!-- <h4>ENROLMENT AREA<span></span></h4> -->
+						</div>
+					</a>
+				</li>
+				<li>
+					<div class="pic"><img src="temp/bg1.jpg"/></div>
+					<a href="" class="homeJoinBg">
+						<div class="homeJoinBgInner">
+							<h3>2023年上半年考试报名提示：</h3>
+							<h4>1. 报名未开始前，考生可进行注册及学籍信息验证操作，个人信息错误请及时与所在学校有关部门联系更正。具体报名时间以各学校通知为准。</h4>
+							<h4>请在报名完成后24小时内完成缴费，并再次登录系统确认是否报名成功，如有疑问可拨打客服电话进行咨询。</h4>
+							<!-- <h4>3. 关于调整全国大学英语四、六级口语考试成绩报告方式的通知：[点击查看]。</h4> -->
+						</div>
+					</a>
+				</li>
+			</ul>
+		</div>
 		<div id="footer" class="homeFooter">
 			<div class="wrap clearfloat">
 				<div class="footerLeft">
-					<div class="footerlogo"><img src="images/logo_footer.png"/></div>
-					<div class="footerEwm">
+					<div class="footerlogo"><img src="temp/cetlogo.jpg"/></div>
+					<!-- <div class="footerEwm">
 						<img src="images/ewm.png"/>
 						<p>扫一扫<br />关注微信号</p>
-					</div>
+					</div> -->
 				</div>
 				<div class="footerRight">
-					<ul class="clearfloat">
-						<li>
-							<h3>关于我们</h3>
-							<p><a href="">课程特色</a></p>
-							<p><a href="">寄宿</a></p>
-							<p><a href="">服务</a></p>
-							<p><a href="">梅沙教育</a></p>
-						</li>
-						<li>
-							<h3>学校新闻</h3>
-							<p><a href="">课程特色</a></p>
-							<p><a href="">寄宿</a></p>
-							<p><a href="">服务</a></p>
-						</li>
-						<li>
-							<h3>课程设置</h3>
-							<p><a href="">课程特色</a></p>
-							<p><a href="">寄宿</a></p>
-							<p><a href="">服务</a></p>
-							<p><a href="">梅沙教育</a></p>
-						</li>
-						<li>
-							<h3>我们的团队</h3>
-							<p><a href="">课程特色</a></p>
-							<p><a href="">寄宿</a></p>
-							<p><a href="">服务</a></p>
-							<p><a href="">梅沙教育</a></p>
-						</li>
-						<li>
-							<h3>招生信息</h3>
-							<p><a href="">课程特色</a></p>
-							<p><a href="">寄宿</a></p>
-							<p><a href="">服务</a></p>
-							<p><a href="">梅沙教育</a></p>
-						</li>
-						<li>
-							<h3>联系我们</h3>
-							<p><a href="">课程特色</a></p>
-							<p><a href="">寄宿</a></p>
-							<p><a href="">服务</a></p>
-							<p><a href="">友情链接</a></p>
-						</li>
-					</ul>
+
 					<div class="footerInfor clearfloat">
 						<div class="footerInforL">
-							<p>地址： 南京市建邺区雨润大街10号</p>
-							<p>邮箱：jiaoyu@support.com</p>
+							<p>地址： 南开大学津南校区</p>
 						</div>
 						<div class="footerInforR">
-							<p><span>邮编：510630</span>  <span>电话：(025)57688087</span></p>
 							<p>工作时间：周一至周五 9:00-12:00；14:00-17:30</p>
 						</div>
 					</div>
@@ -390,23 +206,23 @@
 		</div>
 		<div id="bottom">
 			<div class="wrap">
-				<p>Copyright© 2016-2018 Meisha Technology. All Rights <a href="http://www.bootstrapmb.com/" title="bootstrapmb">Reserved</a>. 深圳青少年教育科技有限公司 版权所有 备案/许可证编号为：粤ICP备16232454号</p>
+				<p>©2023 南开大学 版权所有 (Powered by:石家琪)</p>
 			</div>
 		</div>
-	</body>
-	<script type="text/javascript">
-		$('.sliderBanner').bxSlider({
+</body>
+<script type="text/javascript">
+	$('.sliderBanner').bxSlider({
 		'auto':true,
-    'controls':true,
-    'touchEnabled':true,
-    'pager':true,
-    'speed':1000,
+		'controls':true,
+		'touchEnabled':true,
+		'pager':true,
+		'speed':1000,
 		'pause':4000,
 		'pagerType': 'full',
-		
+
 	})
-		
-		
-		
-	</script>
+
+
+
+</script>
 </html>

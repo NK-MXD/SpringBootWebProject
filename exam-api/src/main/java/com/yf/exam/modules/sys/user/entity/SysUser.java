@@ -14,7 +14,7 @@ import java.util.Date;
 * 管理用户实体类
 * </p>
 *
-* @author 聪明笨狗
+* @author  
 * @since 2020-04-13 16:57
 */
 @Data

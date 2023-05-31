@@ -12,7 +12,7 @@ import lombok.Data;
 * 考试题库实体类
 * </p>
 *
-* @author 聪明笨狗
+* @author  
 * @since 2020-09-05 11:14
 */
 @Data
@@ -74,5 +74,17 @@ public class ExamRepo extends Model<ExamRepo> {
     */
     @TableField("judge_score")
     private Integer judgeScore;
+    
+        /**
+    * 主观题数量
+    */
+    @TableField("text_count")
+    private Integer textCount;
+    
+    /**
+    * 主观题分数
+    */
+    @TableField("text_score")
+    private Integer textScore;
     
 }

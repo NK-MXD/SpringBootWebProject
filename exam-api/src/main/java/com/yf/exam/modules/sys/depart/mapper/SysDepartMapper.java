@@ -13,7 +13,7 @@ import org.apache.ibatis.annotations.Param;
 * 部门信息Mapper
 * </p>
 *
-* @author 聪明笨狗
+* @author  
 * @since 2020-09-02 17:25
 */
 public interface SysDepartMapper extends BaseMapper<SysDepart> {

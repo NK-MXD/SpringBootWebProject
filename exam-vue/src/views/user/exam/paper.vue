@@ -14,14 +14,6 @@
         </el-col>
 
         <el-col :span="12">
-          客观得分：{{ item.userScore }}
-        </el-col>
-
-        <el-col :span="12">
-          主观得分：{{ item.userScore }}
-        </el-col>
-
-        <el-col :span="12">
           考试得分：{{ item.userScore }}
         </el-col>
 
@@ -32,15 +24,9 @@
         <el-col :span="12">
           考试状态：{{ item.state | paperStateFilter }}
         </el-col>
-         <!-- 这里添加一个查看考试卷子的跳转 -->
-    <!-- this.$router.push({ name: 'ShowExam', params: { id: this.paperId }}) -->
-      <!-- <el-button type="info" @click="onCancel">返回</el-button> -->
-      <!-- 如果没有批改卷子的话显示, 如果已经批改卷子的话就不显示 -->
 
-        <el-button type="primary" size="mini" icon="el-icon-view" @click="handleExamDetail(item.id)">试卷详情</el-button>
-        <el-button type="primary" size="mini" icon="el-icon-edit" @click="handleExamDetail(item.id)">进行批改</el-button>
       </el-row>
-      
+
     </el-card>
 
   </div>
@@ -100,10 +86,6 @@ export default {
       listPaper(this.userId, this.examId).then(response => {
         this.paperList = response.data.records
       })
-    },
-    handleExamDetail(paperId) {
-      this.paperId = paperId
-      this.$router.push({ name: 'ShowExam', params: { id: this.paperId }})
     }
   }
 }

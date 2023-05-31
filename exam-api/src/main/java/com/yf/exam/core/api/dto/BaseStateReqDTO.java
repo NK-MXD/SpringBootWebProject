@@ -14,7 +14,7 @@ import java.util.List;
  * 通用状态请求类，用于修改状态什么的
  * </p>
  *
- * @author 聪明笨狗
+ * @author  
  * @since 2019-04-20 12:15
  */
 @Data

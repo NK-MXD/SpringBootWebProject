@@ -112,7 +112,7 @@ export const asyncRoutes = [
     meta: {
       title: '在线考试',
       icon: 'list',
-      roles: ['student', 'sa']
+      roles: ['student','sa']
     },
     children: [
 
@@ -173,9 +173,16 @@ export const asyncRoutes = [
     meta: {
       title: '考试管理',
       icon: 'example',
-      roles: ['sa', 'teacher']
+      roles: ['sa', 'teacher']//为什么在这里修改没有用？
     },
     children: [
+      
+      // {
+      //   path: '',
+      //   component: () => import(''),
+      //   name: '',
+      //   meta: { title: '报名管理', noCache: true, icon: 'repo' }
+      // },
 
       {
         path: 'repo',
@@ -261,6 +268,8 @@ export const asyncRoutes = [
       }
     ]
   },
+
+  
 
   {
     path: '/sys',

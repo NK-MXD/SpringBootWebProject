@@ -9,7 +9,7 @@ import com.yf.exam.modules.sys.config.entity.SysConfig;
 * 通用配置业务类
 * </p>
 *
-* @author 聪明笨狗
+* @author  
 * @since 2020-04-17 09:12
 */
 public interface SysConfigService extends IService<SysConfig> {

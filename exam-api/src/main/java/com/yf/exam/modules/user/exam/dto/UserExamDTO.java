@@ -13,7 +13,7 @@ import java.io.Serializable;
 * 考试记录数据传输类
 * </p>
 *
-* @author 聪明笨狗
+* @author  
 * @since 2020-09-21 15:13
 */
 @Data

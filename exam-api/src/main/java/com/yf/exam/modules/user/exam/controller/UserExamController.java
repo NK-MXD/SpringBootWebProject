@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.RestController;
 * 考试记录控制器
 * </p>
 *
-* @author 聪明笨狗
+* @author  
 * @since 2020-09-21 15:13
 */
 @Api(tags={"考试记录"})

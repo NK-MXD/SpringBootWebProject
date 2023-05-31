@@ -11,7 +11,7 @@ import java.io.Serializable;
 * 考试部门数据传输类
 * </p>
 *
-* @author 聪明笨狗
+* @author  
 * @since 2020-09-03 17:24
 */
 @Data

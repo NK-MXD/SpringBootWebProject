@@ -8,7 +8,7 @@ import com.yf.exam.modules.sys.user.entity.SysUser;
 * 管理用户Mapper
 * </p>
 *
-* @author 聪明笨狗
+* @author  
 * @since 2020-04-13 16:57
 */
 public interface SysUserMapper extends BaseMapper<SysUser> {

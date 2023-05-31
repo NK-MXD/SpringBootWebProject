@@ -11,7 +11,7 @@
           <div style="line-height: 32px;">
 
             <div class="title" style="padding-top: 0px">系统介绍</div>
-            云帆考试系统是一款基于SpringBoot+Vue开发的考试系统。包含在线考试、用户体系、错题训练、考试规则、智能算分等考试功能，流程通畅。
+            CET6报名考试系统是一款基于SpringBoot+Vue开发的考试系统。包含在线考试、用户体系、错题训练、考试规则、智能算分等考试功能，流程通畅。
 
             <div class="title">技术栈</div>
             <div class="tags">
@@ -33,13 +33,14 @@
               <div>题库管理：支持单选题、多选题、判断题、支持试题批量导入导出</div>
               <div>考试权限：支持指定考试范围：完全公开、指定某些部门人员考试</div>
               <div>在线考试：学员在线考试、查看分数、考试错题训练。</div>
+              <div>在线阅卷：教师进行主观题在线阅卷</div>
             </div>
 
           </div>
 
         </el-card>
       </el-col>
-      <el-col :span="8">
+      <!-- <el-col :span="8">
 
         <el-card class="box">
           <div slot="header" class="clearfix">
@@ -78,7 +79,7 @@
 
         </el-card>
 
-      </el-col>
+      </el-col> -->
     </el-row>
   </div>
 </template>

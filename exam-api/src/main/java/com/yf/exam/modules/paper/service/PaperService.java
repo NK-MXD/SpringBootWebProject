@@ -17,7 +17,7 @@ import com.yf.exam.modules.paper.entity.Paper;
 * 试卷业务类
 * </p>
 *
-* @author 聪明笨狗
+* @author  
 * @since 2020-05-25 16:33
 */
 public interface PaperService extends IService<Paper> {

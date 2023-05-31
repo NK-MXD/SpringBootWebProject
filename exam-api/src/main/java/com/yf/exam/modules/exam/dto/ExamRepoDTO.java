@@ -11,7 +11,7 @@ import java.io.Serializable;
 * 考试题库数据传输类
 * </p>
 *
-* @author 聪明笨狗
+* @author  
 * @since 2020-09-05 11:14
 */
 @Data
@@ -47,5 +47,11 @@ public class ExamRepoDTO implements Serializable {
     
     @ApiModelProperty(value = "判断题分数", required=true)
     private Integer judgeScore;
+
+    @ApiModelProperty(value = "主观题数量", required=true)
+    private Integer textCount;
+    
+    @ApiModelProperty(value = "主观题分数", required=true)
+    private Integer textScore;
     
 }

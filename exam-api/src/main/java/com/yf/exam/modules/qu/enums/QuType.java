@@ -22,5 +22,10 @@ public interface QuType {
      * 判断题
      */
     Integer JUDGE = 3;
+
+    /**
+     * 主观题
+     */
+    Integer TEXT = 4;
     
 }

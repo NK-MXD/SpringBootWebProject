@@ -14,7 +14,7 @@ import org.apache.ibatis.annotations.Param;
 * 考试Mapper
 * </p>
 *
-* @author 聪明笨狗
+* @author  
 * @since 2020-07-25 16:18
 */
 public interface ExamMapper extends BaseMapper<Exam> {

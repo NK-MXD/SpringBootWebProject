@@ -159,7 +159,7 @@ public class ExamServiceImpl extends ServiceImpl<ExamMapper, Exam> implements Ex
      */
     private void calcScore(ExamSaveReqDTO reqDTO){
 
-        // 主观题分数
+        // 客观题分数
         int objScore = 0;
 
         // 题库组卷

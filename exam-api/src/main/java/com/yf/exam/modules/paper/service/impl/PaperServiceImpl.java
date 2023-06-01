@@ -157,6 +157,7 @@ public class PaperServiceImpl extends ServiceImpl<PaperMapper, Paper> implements
         List<PaperQuDTO> radioList = new ArrayList<>();
         List<PaperQuDTO> multiList = new ArrayList<>();
         List<PaperQuDTO> judgeList = new ArrayList<>();
+        List<PaperQuDTO> textList = new ArrayList<>();
         for(PaperQuDTO item: list){
             if(QuType.RADIO.equals(item.getQuType())){
                 radioList.add(item);
@@ -167,11 +168,15 @@ public class PaperServiceImpl extends ServiceImpl<PaperMapper, Paper> implements
             if(QuType.JUDGE.equals(item.getQuType())){
                 judgeList.add(item);
             }
+            if(QuType.TEXT.equals(item.getQuType())){
+                textList.add(item);
+            }
         }
 
         respDTO.setRadioList(radioList);
         respDTO.setMultiList(multiList);
         respDTO.setJudgeList(judgeList);
+        respDTO.setTextList(textList);
         return respDTO;
     }
 
@@ -263,11 +268,11 @@ public class PaperServiceImpl extends ServiceImpl<PaperMapper, Paper> implements
                     }
                 }
 
-                // 判断题
+                // 主观题
                 if(item.getTextCount() > 0) {
-                    List<Qu> judgeList = quService.listByRandom(item.getRepoId(), QuType.TEXT, excludes,
+                    List<Qu> textList = quService.listByRandom(item.getRepoId(), QuType.TEXT, excludes,
                             item.getTextCount());
-                    for (Qu qu : judgeList) {
+                    for (Qu qu : textList) {
                         PaperQu paperQu = this.processPaperQu(item, qu);
                         quList.add(paperQu);
                         excludes.add(qu.getId());
@@ -308,6 +313,11 @@ public class PaperServiceImpl extends ServiceImpl<PaperMapper, Paper> implements
         if (QuType.JUDGE.equals(qu.getQuType())) {
             paperQu.setScore(repo.getJudgeScore());
             paperQu.setActualScore(repo.getJudgeScore());
+        }
+
+        if (QuType.TEXT.equals(qu.getQuType())) {
+            paperQu.setScore(repo.getTextScore());
+            paperQu.setActualScore(repo.getTextScore());
         }
 
         return paperQu;

@@ -92,6 +92,27 @@
           </el-table-column>
 
           <el-table-column
+            label="主观题数量"
+            align="center"
+          >
+
+            <template slot-scope="scope">
+              <el-input-number v-model="scope.row.textCount" :min="0" :max="scope.row.totalText" :controls="false" style="width: 100px" />  / {{ scope.row.totalText }}
+            </template>
+
+          </el-table-column>
+
+          <el-table-column
+            label="主观题分数"
+            align="center"
+          >
+            <template slot-scope="scope">
+              <el-input-number v-model="scope.row.textScore" :min="0" :controls="false" style="width: 100%" />
+            </template>
+          </el-table-column>
+
+
+          <el-table-column
             label="删除"
             align="center"
             width="80px"
@@ -448,10 +469,12 @@ export default {
         row.totalRadio = e.radioCount
         row.totalMulti = e.multiCount
         row.totalJudge = e.judgeCount
+        row.textJudge = e.textCount
       } else {
         row.totalRadio = 0
         row.totalMulti = 0
         row.totalJudge = 0
+        row.textJudge = 0
       }
     }
 

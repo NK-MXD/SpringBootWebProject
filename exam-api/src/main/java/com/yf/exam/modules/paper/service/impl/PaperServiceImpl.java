@@ -53,7 +53,7 @@ import java.util.*;
 * 语言设置 服务实现类
 * </p>
 *
-* @author  
+* @author 聪明笨狗
 * @since 2020-05-25 16:33
 */
 @Service
@@ -268,6 +268,7 @@ public class PaperServiceImpl extends ServiceImpl<PaperMapper, Paper> implements
                     }
                 }
 
+
                 // 主观题
                 if(item.getTextCount() > 0) {
                     List<Qu> textList = quService.listByRandom(item.getRepoId(), QuType.TEXT, excludes,
@@ -278,6 +279,7 @@ public class PaperServiceImpl extends ServiceImpl<PaperMapper, Paper> implements
                         excludes.add(qu.getId());
                     }
                 }
+
             }
         }
         return quList;

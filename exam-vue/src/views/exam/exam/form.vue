@@ -398,6 +398,16 @@ export default {
             })
             return
           }
+
+          if ((repo.textCount > 0 && repo.textScore === 0) || (repo.textCount === 0 && repo.textScore > 0)) {
+            this.$notify({
+              title: '提示信息',
+              message: '题库第：[' + (i + 1) + ']项存在无效的主观题配置！',
+              type: 'warning',
+              duration: 2000
+            })
+            return
+          }
         }
 
         this.$confirm('确实要提交保存吗？', '提示', {

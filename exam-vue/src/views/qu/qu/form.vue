@@ -1,3 +1,4 @@
+/* eslint-disable */
 <template>
   <div class="app-container">
 
@@ -120,6 +121,16 @@
 
       </div>
 
+      <div v-if="postForm.quType===4" class="filter-container" style="margin-top: 25px">
+
+        <el-button class="filter-item" type="primary" icon="el-icon-plus" size="small" plain @click="handleAdd">
+          添加
+        </el-button>
+
+        
+      </div>
+      
+
       <div style="margin-top: 20px">
         <el-button type="primary" @click="submitForm">保存</el-button>
         <el-button type="info" @click="onCancel">返回</el-button>
@@ -201,8 +212,6 @@ export default {
       if (v === 3) {
         this.postForm.answerList.push({ isRight: true, content: '正确', analysis: '' })
         this.postForm.answerList.push({ isRight: false, content: '错误', analysis: '' })
-        //this.postForm.answerList.push({ isRight: false, content: '错误', analysis: '' })
-
       }
 
       if (v === 1 || v === 2) {
@@ -212,7 +221,7 @@ export default {
         this.postForm.answerList.push({ isRight: false, content: '', analysis: '' })
       }
 
-      if (v == 4) {
+      if (v === 4) {
         this.postForm.answerList.push({ isRight: false, content: '', analysis: '' })
       }
     },

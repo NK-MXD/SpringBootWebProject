@@ -7,9 +7,9 @@ spring:
     allow-bean-definition-overriding: true
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
-    url: jdbc:mysql://localhost:3306/exam?useSSL=false&serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&allowPublicKeyRetrieval=true
+    url: jdbc:mysql://localhost:3306/yf_exam?useSSL=false&serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&allowPublicKeyRetrieval=true
     username: root
-    password: cry20030925
+    password: mmm12345
   redis:
     database: 0
     host: localhost

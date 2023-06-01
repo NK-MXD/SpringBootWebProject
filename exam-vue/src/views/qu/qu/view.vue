@@ -19,6 +19,7 @@
           </el-checkbox-group>
         </div>
 
+<<<<<<< HEAD
         <div v-if="quData.quType === 4">
           <div>
             <el-input v-model="textarea"></el-input>
@@ -27,6 +28,8 @@
             {{ an.content }}
           </el-input> -->
         </div>
+=======
+>>>>>>> master
         
 
       </div>

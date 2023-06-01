@@ -771,8 +771,8 @@
                 multiScore: 0,
                 judgeCount: 0,
                 judgeScore: 0,
-                saqCount: 0,
-                saqScore: 0,
+                textCount: 0,
+                textScore: 0,
               });
             },
             removeItem: function (t) {

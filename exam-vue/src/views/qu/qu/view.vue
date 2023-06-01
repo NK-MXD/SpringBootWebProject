@@ -19,6 +19,16 @@
           </el-checkbox-group>
         </div>
 
+        <div v-if="quData.quType === 4">
+          <div>
+            <el-input v-model="textarea"></el-input>
+          </div>
+          <!-- <el-input v-for="an in quData.answerList" :label="an.id" readonly type="textarea" :rows="2" placeholder="请输入内容" v-model="textarea">
+            {{ an.content }}
+          </el-input> -->
+        </div>
+        
+
       </div>
 
     </el-card>
@@ -58,7 +68,8 @@ export default {
 
       radioValues: '',
       multiValues: [],
-      analysisCount: 0
+      analysisCount: 0,
+      textarea: ''
 
     }
   },

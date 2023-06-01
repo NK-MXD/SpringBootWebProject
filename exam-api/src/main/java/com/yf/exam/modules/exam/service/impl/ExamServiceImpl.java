@@ -161,7 +161,7 @@ public class ExamServiceImpl extends ServiceImpl<ExamMapper, Exam> implements Ex
 
         // 客观题分数
         int objScore = 0;
-
+        int subjScore = 0;
         // 题库组卷
         List<ExamRepoExtDTO> repoList = reqDTO.getRepoList();
 
@@ -181,9 +181,10 @@ public class ExamServiceImpl extends ServiceImpl<ExamMapper, Exam> implements Ex
             if(item.getJudgeCount()!=null
                     && item.getJudgeCount()>0
                     && item.getJudgeScore()!=null
-                    && item.getJudgeScore()>0){
-                objScore+=item.getJudgeCount()*item.getJudgeScore();
+                    && item.getJudgeScore() > 0) {
+                objScore += item.getJudgeCount() * item.getJudgeScore();
             }
+
         }
 
 

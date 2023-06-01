@@ -68,7 +68,7 @@
         (SELECT COUNT(DISTINCT user_id) FROM el_paper WHERE exam_id=ex.id) as examUser,
         (SELECT COUNT(0) FROM el_paper WHERE exam_id=ex.id AND state=1) as unreadPaper
         FROM el_exam ex
-        WHERE ex.has_saq=1
+        WHERE ex.has_text=1
     </select>
 
 

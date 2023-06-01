@@ -94,13 +94,72 @@
 						<h3><span>Time</span></h3>
 						<div class="line"></div>
 					</div>
-					<p></p>
-					<p></p>
+					<h4>1. 各科目时间安排</h4>
+					<br>
+					<table>
+						<tr>
+							<th>时间</th>
+							<th>考试种类</th>
+							<th>考试代码</th>
+							<th>考试时间</th>
+						</tr>
+						<tr>
+							<td rowspan="5">上午</td>
+							<td>英语四级考试（CET4）</td>
+							<td>1</td>
+							<td>9:00-11:20</td>
+						</tr>
+						<tr>
+							<td>日语四级考试（CJT4）</td>
+							<td>3</td>
+							<td>9:00-11:10</td>
+						</tr>
+						<tr>
+							<td>德语四级考试（CGT4）</td>
+							<td>5</td>
+							<td>9:00-11:10</td>
+						</tr>
+						<tr>
+							<td>俄语四级考试（CRT4）</td>
+							<td>7</td>
+							<td>9:00-11:10</td>
+						</tr>
+						<tr>
+							<td>法语四级考试（CFT4）</td>
+							<td>9</td>
+							<td>9:00-11:10</td>
+						</tr>
+						<tr>
+							<td rowspan="5">下午</td>
+							<td>英语六级考试（CET6）</td>
+							<td>2</td>
+							<td>15:00-17:25</td>
+						</tr>
+						<tr>
+							<td>日语六级考试（CJT6）</td>
+							<td>4</td>
+							<td>15:00-17:10</td>
+						</tr>
+						<tr>
+							<td>德语六级考试（CGT6）</td>
+							<td>6</td>
+							<td>15:00-17:10</td>
+						</tr>
+						<tr>
+							<td>俄语六级考试（CRT6）</td>
+							<td>8</td>
+							<td>15:00-17:10</td>
+						</tr>
+					</table>
+					<br>
+					<h4>2.报考 CET 各科目须符合考生所在学校规定的报考资格，报考 CET6 考生
+						CET4 成绩须在 425 分及以上。</h4>
 					<a href="./TestDataPlan-CET.pdf" target="_blank" class="link-pdf">点击查看2023年上半年CET考试时间及开考科目安排</a>
 				</div>
 				
 			</div>
 		</div>
+
 		<div id="footer" class="homeFooter">
 			<div class="wrap clearfloat">
 				<div class="footerLeft">
@@ -127,4 +186,28 @@
 		</div>
 		
 	</body>
+	<style>
+		table {
+			border-collapse: collapse;
+			width: 100%;
+			border: 2px solid #000; /* 表格整体边框样式 */
+		}
+
+		th, td {
+			text-align: center;
+			padding: 8px;
+			border-bottom: 2px solid #000; /* 加深边框线的颜色 */
+			border-right: 2px solid #000; /* 加深边框线的颜色 */
+			color: black;
+		}
+
+		th {
+			background-color: #f2f2f2;
+		}
+
+		tr:nth-child(even) {
+			background-color: #f9f9f9;
+		}
+	</style>
+
 </html>

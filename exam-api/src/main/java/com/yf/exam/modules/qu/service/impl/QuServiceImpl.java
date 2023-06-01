@@ -190,6 +190,7 @@ public class QuServiceImpl extends ServiceImpl<QuMapper, Qu> implements QuServic
                 qu.setRepoIds(im.getRepoList());
                 // 保存答案
                 this.save(qu);
+
                 count++;
             }
 
@@ -230,23 +231,22 @@ public class QuServiceImpl extends ServiceImpl<QuMapper, Qu> implements QuServic
      */
     public void checkData(QuDetailDTO qu, String no) {
 
-
         if (StringUtils.isEmpty(qu.getContent())) {
             throw new ServiceException(1, no + "题目内容不能为空！");
         }
 
-
         if (CollectionUtils.isEmpty(qu.getRepoIds())) {
             throw new ServiceException(1, no + "至少要选择一个题库！");
         }
+        //log.debug("问题的type:"+ qu.getQuType());
+        
+        if (!qu.getQuType().equals(QuType.TEXT)) { //客观题必须有答案
 
-        List<QuAnswerDTO> answers = qu.getAnswerList();
-
+            List<QuAnswerDTO> answers = qu.getAnswerList();
 
             if (CollectionUtils.isEmpty(answers)) {
                 throw new ServiceException(1, no + "客观题至少要包含一个备选答案！");
             }
-
 
             int trueCount = 0;
             for (QuAnswerDTO a : answers) {
@@ -268,11 +268,14 @@ public class QuServiceImpl extends ServiceImpl<QuMapper, Qu> implements QuServic
                 throw new ServiceException(1, no + "至少要包含一个正确项！");
             }
 
-
             //单选题
             if (qu.getQuType().equals(QuType.RADIO) && trueCount > 1) {
                 throw new ServiceException(1, no + "单选题不能包含多个正确项！");
             }
 
+        }
+        else {
+            
+        }
     }
 }

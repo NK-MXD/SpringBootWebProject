@@ -34,6 +34,12 @@ public class SysUserSaveReqDTO implements Serializable {
     @ApiModelProperty(value = "密码", required=true)
     private String password;
 
+    @ApiModelProperty(value = "电话号码", required=true)
+    private String phone;
+
+    @ApiModelProperty(value = "身份证号", required=true)
+    private String chnid;
+
     @ApiModelProperty(value = "部门", required=true)
     private String departId;
 

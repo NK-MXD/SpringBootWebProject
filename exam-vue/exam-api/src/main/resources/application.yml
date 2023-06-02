@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: yf-exam-lite
+  profiles:
+      active: dev
+  main:
+    allow-bean-definition-overriding: true
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://localhost:3306/exam?useSSL=false&serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&allowPublicKeyRetrieval=true
+    username: root
+    password: cry20030925
+  redis:
+    database: 0
+    host: localhost
+    password: 
+    timeout: 5000
+
+
+server:
+  port: 8101
+  # 启用服务端压缩
+  compression:
+    enabled: true
+    min-response-size: 10
+    mime-types: application/json,application/xml,text/html,text/xml,text/plain,application/javascript,text/css
+

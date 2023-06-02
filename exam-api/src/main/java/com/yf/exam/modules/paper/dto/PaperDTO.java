@@ -62,7 +62,7 @@ public class PaperDTO implements Serializable {
     private Integer userScore;
 
     @ApiModelProperty(value = "是否包含简答题", required=true)
-    private Boolean hasSaq;
+    private Boolean hasText;
 
     @ApiModelProperty(value = "试卷状态", required=true)
     private Integer state;

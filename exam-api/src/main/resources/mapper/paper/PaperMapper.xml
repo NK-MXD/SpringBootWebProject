@@ -16,7 +16,7 @@
         <result column="obj_score" property="objScore" />
         <result column="subj_score" property="subjScore" />
         <result column="user_score" property="userScore" />
-        <result column="has_saq" property="hasSaq" />
+        <result column="has_text" property="hasText" />
         <result column="state" property="state" />
         <result column="create_time" property="createTime" />
         <result column="update_time" property="updateTime" />
@@ -25,7 +25,7 @@
 
     <!-- 通用查询结果列 -->
     <sql id="Base_Column_List">
-        `id`,`user_id`,`depart_id`,`exam_id`,`title`,`total_time`,`user_time`,`total_score`,`qualify_score`,`obj_score`,`subj_score`,`user_score`,`has_saq`,`state`,`create_time`,`update_time`,`limit_time`
+        `id`,`user_id`,`depart_id`,`exam_id`,`title`,`total_time`,`user_time`,`total_score`,`qualify_score`,`obj_score`,`subj_score`,`user_score`,`has_text`,`state`,`create_time`,`update_time`,`limit_time`
     </sql>
 
 

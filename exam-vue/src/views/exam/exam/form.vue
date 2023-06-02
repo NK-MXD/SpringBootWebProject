@@ -314,6 +314,7 @@ export default {
           this.postForm.totalScore += item.radioCount * item.radioScore
           this.postForm.totalScore += item.multiCount * item.multiScore
           this.postForm.totalScore += item.judgeCount * item.judgeScore
+          this.postForm.totalScore += item.textCount * item.textScore
           this.excludes.push(item.id)
           console.log('++++' + item.id)
         }
@@ -397,6 +398,16 @@ export default {
             })
             return
           }
+
+          if ((repo.textCount > 0 && repo.textScore === 0) || (repo.textCount === 0 && repo.textScore > 0)) {
+            this.$notify({
+              title: '提示信息',
+              message: '题库第：[' + (i + 1) + ']项存在无效的主观题配置！',
+              type: 'warning',
+              duration: 2000
+            })
+            return
+          }
         }
 
         this.$confirm('确实要提交保存吗？', '提示', {
@@ -421,7 +432,7 @@ export default {
 
     // 添加子项
     handleAdd() {
-      this.repoList.push({ id: '', rowId: new Date().getTime(), radioCount: 0, radioScore: 0, multiCount: 0, multiScore: 0, judgeCount: 0, judgeScore: 0, saqCount: 0, saqScore: 0 })
+      this.repoList.push({ id: '', rowId: new Date().getTime(), radioCount: 0, radioScore: 0, multiCount: 0, multiScore: 0, judgeCount: 0, judgeScore: 0, textCount: 0, textScore: 0 })
     },
 
     removeItem(index) {

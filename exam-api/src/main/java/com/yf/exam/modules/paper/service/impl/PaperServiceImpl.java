@@ -304,22 +304,25 @@ public class PaperServiceImpl extends ServiceImpl<PaperMapper, Paper> implements
 
         if (QuType.RADIO.equals(qu.getQuType())) {
             paperQu.setScore(repo.getRadioScore());
-            paperQu.setActualScore(repo.getRadioScore());
+            log.debug("QuType.RADIO获得score的值: "+repo.getRadioScore().toString());
+            paperQu.setActualScore(0);
         }
 
         if (QuType.MULTI.equals(qu.getQuType())) {
+            log.debug("QuType.MULTI获得score的值: "+repo.getRadioScore().toString());
             paperQu.setScore(repo.getMultiScore());
-            paperQu.setActualScore(repo.getMultiScore());
+            paperQu.setActualScore(0);
         }
 
         if (QuType.JUDGE.equals(qu.getQuType())) {
+            log.debug("QuType.JUDGE获得score的值: "+repo.getRadioScore().toString());
             paperQu.setScore(repo.getJudgeScore());
-            paperQu.setActualScore(repo.getJudgeScore());
+            paperQu.setActualScore(0);
         }
 
         if (QuType.TEXT.equals(qu.getQuType())) {
             paperQu.setScore(repo.getTextScore());
-            paperQu.setActualScore(repo.getTextScore());
+            paperQu.setActualScore(0);
         }
 
         return paperQu;
@@ -352,7 +355,7 @@ public class PaperServiceImpl extends ServiceImpl<PaperMapper, Paper> implements
         paper.setUpdateTime(new Date());
         paper.setQualifyScore(exam.getQualifyScore());
         paper.setState(PaperState.ING);
-        paper.setHasSaq(false);
+        paper.setHasText(false);
 
         // 截止时间
         Calendar cl = Calendar.getInstance();
@@ -457,6 +460,15 @@ public class PaperServiceImpl extends ServiceImpl<PaperMapper, Paper> implements
         qu.setQuId(reqDTO.getQuId());
         qu.setPaperId(reqDTO.getPaperId());
         qu.setIsRight(right);
+        // 这里设置的是正确与否的设置, 但是设置分数为什么是不起作用的呢?
+        // 因为这里的qu本身没有初始化score, 因此getScore获得不到对应的真实值
+        // 这里添加更新改题分数
+        if(right){
+            log.debug("获得score的值: ");
+            qu.setActualScore(10);
+        }else{
+            qu.setActualScore(0);
+        }
         qu.setAnswer(reqDTO.getAnswer());
         qu.setAnswered(true);
 
@@ -485,7 +497,7 @@ public class PaperServiceImpl extends ServiceImpl<PaperMapper, Paper> implements
         paper.setSubjScore(0);
 
         // 待阅卷
-        if(paper.getHasSaq()) {
+        if(paper.getHasText()) {
             paper.setState(PaperState.WAIT_OPT);
         }else {
 

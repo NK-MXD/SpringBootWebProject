@@ -88,6 +88,14 @@
 
           </div>
 
+          <div v-if="quData.quType === 4">
+            <!-- <div>
+              <el-input v-model="textarea"></el-input>
+            </div> -->
+            <el-input  type="textarea" :rows="8" placeholder="请输入内容" v-model="textarea">
+            </el-input>
+          </div>
+
           <div style="margin-top: 20px">
             <el-button v-if="showPrevious" type="primary" icon="el-icon-back" @click="handPrevious()">
               上一题
@@ -139,14 +147,16 @@ export default {
         leftSeconds: 99999,
         radioList: [],
         multiList: [],
-        judgeList: []
+        judgeList: [],
+        textList: []
       },
       // 单选选定值
       radioValue: '',
       // 多选选定值
       multiValue: [],
       // 已答ID
-      answeredIds: []
+      answeredIds: [],
+      textarea: []
     }
   },
   created() {
@@ -194,6 +204,12 @@ export default {
       })
 
       this.paperData.judgeList.forEach(function(item) {
+        if (!item.answered) {
+          notAnswered += 1
+        }
+      })
+
+      this.paperData.textList.forEach(function(item) {
         if (!item.answered) {
           notAnswered += 1
         }
@@ -351,6 +367,8 @@ export default {
           this.cardItem = this.paperData.multiList[0]
         } else if (this.paperData.judgeList) {
           this.cardItem = this.paperData.judgeList[0]
+        } else if (this.paperData.textList) {
+          this.cardItem = this.paperData.textList[0]
         }
 
         const that = this
@@ -364,6 +382,10 @@ export default {
         })
 
         this.paperData.judgeList.forEach(function(item) {
+          that.allItem.push(item)
+        })
+
+        this.paperData.textList.forEach(function(item) {
           that.allItem.push(item)
         })
 

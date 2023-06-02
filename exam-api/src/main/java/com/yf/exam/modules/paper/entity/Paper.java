@@ -97,8 +97,8 @@ public class Paper extends Model<Paper> {
     /**
      * 是否包含简答题
      */
-    @TableField("has_saq")
-    private Boolean hasSaq;
+    @TableField("has_text")
+    private Boolean hasText;
 
     /**
      * 试卷状态

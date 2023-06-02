@@ -89,10 +89,7 @@
           </div>
 
           <div v-if="quData.quType === 4">
-            <!-- <div>
-              <el-input v-model="textarea"></el-input>
-            </div> -->
-            <el-input  type="textarea" :rows="8" placeholder="请输入内容" v-model="textarea">
+            <el-input  v-model="textarea" type="textarea" :rows="8" placeholder="请输入内容">
             </el-input>
           </div>
 
@@ -156,7 +153,7 @@ export default {
       multiValue: [],
       // 已答ID
       answeredIds: [],
-      textarea: []
+      textarea: 'hhhh'
     }
   },
   created() {
@@ -300,13 +297,24 @@ export default {
         answers.push(this.radioValue)
       }
 
-      const params = { paperId: this.paperId, quId: this.cardItem.quId, answers: answers, answer: '' }
+      // answers.push(this.textarea)
+      // const answertext = ''
+      // if (this.textarea !== '') {
+      //   answertext = this.textarea
+      // }
+
+      const params = { paperId: this.paperId, quId: this.cardItem.quId, answers: answers, answer: this.textarea}
       fillAnswer(params).then(() => {
         // 必须选择一个值
         if (answers.length > 0) {
           // 加入已答列表
           this.cardItem.answered = true
         }
+
+        // if (answer !== '') {
+        //   // 加入已答列表
+        //   this.cardItem.answered = true
+        // }
 
         // 最后一个动作，交卷
         if (callback) {
@@ -336,6 +344,7 @@ export default {
         this.quData = response.data
         this.radioValue = ''
         this.multiValue = []
+        // this.textarea = ''
 
         // 填充该题目的答案
         this.quData.answerList.forEach((item) => {
@@ -346,7 +355,12 @@ export default {
           if (this.quData.quType === 2 && item.checked) {
             this.multiValue.push(item.id)
           }
+
+          // if (this.quData.quType === 4) {
+          //   this.textarea = item.content
+          // }
         })
+        
 
         // 关闭详情
         loading.close()

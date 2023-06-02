@@ -8,6 +8,8 @@
         <result column="user_name" property="userName" />
         <result column="real_name" property="realName" />
         <result column="password" property="password" />
+        <result column="phone" property="phone" />
+        <result column="chnid" property="chnid" />
         <result column="salt" property="salt" />
         <result column="role_ids" property="roleIds" />
         <result column="depart_id" property="departId" />
@@ -18,7 +20,7 @@
 
     <!-- 通用查询结果列 -->
     <sql id="Base_Column_List">
-        `id`,`user_name`,`real_name`,`password`,`salt`,`role_ids`,`depart_id`,`create_time`,`update_time`,`state`
+        `id`,`user_name`,`real_name`,`password`,`salt`,`role_ids`,`depart_id`,`create_time`,`update_time`,`state`,`phone`,`chnid`
     </sql>
 
 </mapper>

@@ -47,6 +47,16 @@ public class SysUser extends Model<SysUser> {
     private String password;
 
     /**
+     * 电话号码
+     */
+    private String phone;
+
+    /**
+     * 身份证号
+     */
+    private String chnid;
+
+    /**
      * 密码盐
      */
     private String salt;

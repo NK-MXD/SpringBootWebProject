@@ -67,6 +67,8 @@ public class SysUserServiceImpl extends ServiceImpl<SysUserMapper, SysUser> impl
             if(!StringUtils.isBlank(params.getRealName())){
                 wrapper.lambda().like(SysUser::getRealName, params.getRealName());
             }
+
+
         }
 
         //获得数据
@@ -148,6 +150,24 @@ public class SysUserServiceImpl extends ServiceImpl<SysUserMapper, SysUser> impl
            user.setSalt(passInfo.getSalt());
            this.updateById(user);
        }
+        String phone = reqDTO.getPhone();
+        if(!StringUtils.isBlank(phone)){
+            SysUser user = this.getById(UserUtils.getUserId());
+            user.setPhone(phone);
+            this.updateById(user);
+        }
+        String chnid = reqDTO.getChnid();
+        if(!StringUtils.isBlank(chnid)){
+            SysUser user = this.getById(UserUtils.getUserId());
+            user.setChnid(chnid);
+            this.updateById(user);
+        }
+        String departid = reqDTO.getDepartId();
+        if(!StringUtils.isBlank(departid)){
+            SysUser user = this.getById(UserUtils.getUserId());
+            user.setDepartId(departid);
+            this.updateById(user);
+        }
     }
 
     @Transactional(rollbackFor = Exception.class)
@@ -174,6 +194,24 @@ public class SysUserServiceImpl extends ServiceImpl<SysUserMapper, SysUser> impl
             PassInfo pass = PassHandler.buildPassword(reqDTO.getPassword());
             user.setPassword(pass.getPassword());
             user.setSalt(pass.getSalt());
+        }
+
+        //修改电话号码
+        if(!StringUtils.isBlank(reqDTO.getPhone())){
+            String phone = reqDTO.getPhone();
+            user.setPhone(phone);
+        }
+
+        //修改身份证号
+        if(!StringUtils.isBlank(reqDTO.getChnid())){
+            String chnid = reqDTO.getChnid();
+            user.setChnid(chnid);
+        }
+
+        //修改部门信息
+        if(!StringUtils.isBlank(reqDTO.getDepartId())){
+            String departid = reqDTO.getDepartId();
+            user.setDepartId(departid);
         }
 
         // 保存角色信息

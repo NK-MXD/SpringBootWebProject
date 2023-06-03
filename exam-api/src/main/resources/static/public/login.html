@@ -74,7 +74,7 @@
             // 可以使用JavaScript的fetch函数或jQuery的Ajax方法发送请求
 
             // 示例：使用fetch发送POST请求
-            fetch("http://localhost:8101/exam/api/sys/user/login", {
+            fetch("/exam/api/sys/user/login", {
                 method: "POST",
                 body: JSON.stringify({ username: username, password: password }),
                 headers: {
@@ -88,7 +88,7 @@
                             if (data.success) {
                                 alert("用户名密码正确！");
                                 // 登录成功，执行跳转或其他操作
-                                window.location.href = "/exam-api/static/public/index.html";
+                                window.location.href = "picture_detail.html";
                             } else {
                                 // 登录失败，显示错误消息或其他处理
                                 alert(data.msg);

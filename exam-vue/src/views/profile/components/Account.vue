@@ -6,6 +6,15 @@
     <el-form-item label="密码">
       <el-input v-model.trim="user.password" type="password" placeholder="不修改请留空" />
     </el-form-item>
+    <el-form-item label="部门">
+      <el-input v-model.trim="user.departId"  placeholder="不修改请留空" />
+    </el-form-item>
+    <el-form-item label="手机号码">
+      <el-input v-model.trim="user.phone"  placeholder="不修改请留空" />
+    </el-form-item>
+    <el-form-item label="身份证号">
+      <el-input v-model.trim="user.chnid"  placeholder="不修改请留空" />
+    </el-form-item>
     <el-form-item>
       <el-button type="primary" @click="submit">修改</el-button>
     </el-form-item>

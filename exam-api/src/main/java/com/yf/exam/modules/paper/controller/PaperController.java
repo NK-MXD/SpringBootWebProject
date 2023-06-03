@@ -9,15 +9,15 @@ import com.yf.exam.core.api.dto.BaseIdsReqDTO;
 import com.yf.exam.core.api.dto.PagingReqDTO;
 import com.yf.exam.core.utils.BeanMapper;
 import com.yf.exam.modules.paper.dto.PaperDTO;
+import com.yf.exam.modules.paper.dto.PaperQuDTO;
 import com.yf.exam.modules.paper.dto.ext.PaperQuDetailDTO;
-import com.yf.exam.modules.paper.dto.request.PaperAnswerDTO;
-import com.yf.exam.modules.paper.dto.request.PaperCreateReqDTO;
-import com.yf.exam.modules.paper.dto.request.PaperListReqDTO;
-import com.yf.exam.modules.paper.dto.request.PaperQuQueryDTO;
+import com.yf.exam.modules.paper.dto.request.*;
 import com.yf.exam.modules.paper.dto.response.ExamDetailRespDTO;
 import com.yf.exam.modules.paper.dto.response.ExamResultRespDTO;
 import com.yf.exam.modules.paper.dto.response.PaperListRespDTO;
 import com.yf.exam.modules.paper.entity.Paper;
+import com.yf.exam.modules.paper.entity.PaperQu;
+import com.yf.exam.modules.paper.service.PaperQuService;
 import com.yf.exam.modules.paper.service.PaperService;
 import com.yf.exam.modules.user.UserUtils;
 import io.swagger.annotations.Api;
@@ -44,6 +44,10 @@ public class PaperController extends BaseController {
 
     @Autowired
     private PaperService baseService;
+
+
+    @Autowired
+    private PaperQuService paperQuService;
 
     /**
     * 添加或修改
@@ -184,6 +188,36 @@ public class PaperController extends BaseController {
         //根据ID删除
         ExamResultRespDTO respDTO = baseService.paperResult(reqDTO.getId());
         return super.success(respDTO);
+    }
+
+    /**
+     * 修改分数
+     * @param reqDTO
+     * @return
+     */
+    @ApiOperation(value = "修改分数")
+    @RequestMapping(value = "/score-change", method = { RequestMethod.POST})
+    public ApiRest<BaseIdRespDTO> paperScoreModify(@RequestBody PaperQuDTO reqDTO) {
+        //复制参数
+        PaperQu entity = new PaperQu();
+        BeanMapper.copy(reqDTO, entity);
+        paperQuService.saveOrUpdate(entity);
+        return super.success(new BaseIdRespDTO(entity.getId()));
+    }
+
+    /**
+     * 修改用户分数
+     * @param reqDTO
+     * @return
+     */
+    @ApiOperation(value = "修改用户试卷分数")
+    @RequestMapping(value = "/userscore-change", method = { RequestMethod.POST})
+    public ApiRest<BaseIdRespDTO> paperUserScoreModify(@RequestBody PaperDTO reqDTO) {
+        //复制参数
+        Paper entity = new Paper();
+        BeanMapper.copy(reqDTO, entity);
+        baseService.saveOrUpdate(entity);
+        return super.success(new BaseIdRespDTO(entity.getId()));
     }
 
 

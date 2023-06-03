@@ -74,9 +74,9 @@
             // 可以使用JavaScript的fetch函数或jQuery的Ajax方法发送请求
 
             // 示例：使用fetch发送POST请求
-            fetch("/exam/api/sys/user/login", {
+            fetch("/exam/api/sys/user/detail", {
                 method: "POST",
-                body: JSON.stringify({ username: username, password: password }),
+                body: JSON.stringify({ username: username}),
                 headers: {
                     "Content-Type": "application/json"
                 }

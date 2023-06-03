@@ -185,11 +185,18 @@ public class ExamServiceImpl extends ServiceImpl<ExamMapper, Exam> implements Ex
                 objScore += item.getJudgeCount() * item.getJudgeScore();
             }
 
+            if(item.getTextScore()!=null
+                    && item.getTextScore()>0
+                    && item.getTextScore()!=null
+                    && item.getTextScore() > 0) {
+                subjScore += item.getTextCount() * item.getTextScore();
+            }
+
         }
 
 
 
-        reqDTO.setTotalScore(objScore);
+        reqDTO.setTotalScore(objScore + subjScore);
     }
 
 }

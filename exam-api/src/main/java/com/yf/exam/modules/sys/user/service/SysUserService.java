@@ -4,6 +4,7 @@ import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.yf.exam.modules.sys.user.dto.SysUserDTO;
 import com.yf.exam.modules.sys.user.dto.request.SysUserSaveReqDTO;
+import com.yf.exam.modules.sys.user.dto.response.SysUserDetailDTO;
 import com.yf.exam.modules.sys.user.dto.response.SysUserLoginDTO;
 import com.yf.exam.modules.sys.user.entity.SysUser;
 import com.yf.exam.core.api.dto.PagingReqDTO;
@@ -32,6 +33,13 @@ public interface SysUserService extends IService<SysUser> {
      * @return
      */
     SysUserLoginDTO login(String userName, String password);
+
+    /**
+     * 登录
+     * @param userName
+     * @return
+     */
+    SysUserDetailDTO findDetail(String userName);
 
     /**
      * 获取管理会话

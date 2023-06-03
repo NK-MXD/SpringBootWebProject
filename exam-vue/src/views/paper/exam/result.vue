@@ -59,12 +59,12 @@
 
             <el-col v-if="item.answered && item.isRight" style="text-align: right; color: #24da70;">
               得分： 
-              <el-input-number v-model="item.actualScore" :min="0" :max="item.score"></el-input-number>
+              <el-input-number v-model="item.actualScore" :min="0" :max="item.score" @change="saveScore(item)"></el-input-number>
             </el-col>
 
             <el-col v-if="!item.answered || (item.answered && !item.isRight)" style="text-align: right; color: #ff0000;">
               得分： 
-              <el-input-number v-model="item.actualScore" :min="0" :max="item.score"></el-input-number>
+              <el-input-number v-model="item.actualScore" :min="0" :max="item.score" @change="saveScore(item)"></el-input-number>
             </el-col>
 
           </el-row>
@@ -82,7 +82,7 @@
             <p>
             </p>
             <el-col style="color: #24da70">
-              参考答案：{{ item.answer }}
+              参考答案：
             </el-col>
 
             <el-col style="text-align: right; color: #24da70;">
@@ -123,19 +123,16 @@
 
             <el-col v-if="item.answered && item.isRight" style="text-align: right; color: #24da70;">
               得分： 
-              <el-input-number v-model="item.actualScore" :min="0" :max="item.score"></el-input-number>
+              <el-input-number v-model="item.actualScore" :min="0" :max="item.score" @change="saveScore(item)"></el-input-number>
             </el-col>
 
             <el-col v-if="!item.answered || (item.answered && !item.isRight)" style="text-align: right; color: #ff0000;">
               得分： 
-              <el-input-number v-model="item.actualScore" :min="0" :max="item.score"></el-input-number>
+              <el-input-number v-model="item.actualScore" :min="0" :max="item.score" @change="saveScore(item)"></el-input-number>
             </el-col>
 
           </el-row>
         </div>
-
-        
-
       </div>
 
     </el-card>
@@ -146,6 +143,8 @@
 <script>
 
 import { paperResult } from '@/api/paper/exam'
+import { ChangeScore } from '@/api/paper/exam'
+import { ChangeUserScore } from '@/api/paper/exam'
 
 export default {
   data() {
@@ -161,7 +160,8 @@ export default {
       multiRights: {},
       myRadio: {},
       myMulti: {},
-      trueAnswer: ''
+      textarea: {},
+      trueAnswer: {}
     }
   },
   created() {
@@ -184,9 +184,11 @@ export default {
           let radioValue = ''
           let radioRight = ''
           let myRadio = ''
+          let textarea = ''
           const multiValue = []
           const multiRight = []
           const myMulti = []
+          const trueAnswer = []
 
           item.answerList.forEach((an) => {
             // 用户选定的
@@ -208,6 +210,10 @@ export default {
                 multiRight.push(an.abc)
               }
             }
+
+            if (item.quType === 4){
+              textarea = an.content
+            }
           })
 
           this.multiValues[item.id] = multiValue
@@ -218,12 +224,75 @@ export default {
 
           this.myRadio[item.id] = myRadio
           this.myMulti[item.id] = myMulti
+          this.trueAnswer[item.id] = textarea
         })
 
         console.log(this.multiValues)
         console.log(this.radioValues)
       })
-    }
+    },
+
+    saveScore(item) {
+      const data = {
+        actualScore: item.actualScore,
+        answer: item.answer,
+        answered: item.answered,
+        id: item.id,
+        isRight: item.isRight,
+        paperId: item.paperId,
+        quId: item.quId,
+        quType: item.quType,
+        score: item.score,
+        sort: item.sort,
+      }
+      ChangeScore(data).then(response => {
+        // paperData.userScore = 100
+        console.log(data)
+        console.log(response)
+        this.updateUserScore()
+      }).catch(error => {
+        console.log(error)
+      })
+    },
+    updateUserScore() {
+      // 计算用户得分
+      let userScore = 0
+      this.paperData.quList.forEach((item) => {
+        userScore += item.actualScore
+      })
+      this.paperData.userScore = userScore
+      this.saveUserScore(this.paperData)
+    },
+
+    saveUserScore(paperData) {
+      const data = {
+        createTime: paperData.createTime,
+        departId: paperData.departId,
+        examId: paperData.examId,
+        hasText: paperData.hasText,
+        id: paperData.id,
+        limitTime: paperData.limitTime,
+        objScore: paperData.objScore,
+        qualifyScore: paperData.qualifyScore,
+        state: paperData.state,
+        subjScore: paperData.subjScore,
+        title: paperData.title,
+        totalScore: paperData.totalScore,
+        totalTime: paperData.totalTime,
+        updateTime: paperData.updateTime,
+        userId: paperData.userId,
+        userScore: paperData.userScore,
+        userTime: paperData.userTime
+      }
+      ChangeUserScore(data).then(response => {
+        // paperData.userScore = 100
+        console.log(data)
+        console.log(response)
+      }).catch(error => {
+        console.log(error)
+      })
+    },
+
   }
 }
 </script>

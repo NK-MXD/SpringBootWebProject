@@ -153,7 +153,7 @@ export default {
       multiValue: [],
       // 已答ID
       answeredIds: [],
-      textarea: 'hhhh'
+      textarea: ''
     }
   },
   created() {

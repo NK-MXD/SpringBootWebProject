@@ -3,226 +3,206 @@
   <component name="ChangeListManager">
     <list default="true" id="99ead6ee-8e24-4d1f-9f64-2931ea47895c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yf/exam/modules/sys/user/dto/SysUserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yf/exam/modules/sys/user/dto/SysUserDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yf/exam/modules/sys/user/dto/request/SysUserSaveReqDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yf/exam/modules/sys/user/dto/request/SysUserSaveReqDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yf/exam/modules/sys/user/entity/SysUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yf/exam/modules/sys/user/entity/SysUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/yf-exam-lite/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/yf-exam-lite/spring.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yf/exam/modules/sys/user/controller/SysUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yf/exam/modules/sys/user/controller/SysUserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yf/exam/modules/sys/user/service/SysUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yf/exam/modules/sys/user/service/SysUserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/yf/exam/modules/sys/user/service/impl/SysUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yf/exam/modules/sys/user/service/impl/SysUserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-local.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-local.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/user/SysUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/sys/user/SysUserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application-local.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-local.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/ExamApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/ExamApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/ability/Constant.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/ability/Constant.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/ability/shiro/ShiroRealm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/ability/shiro/ShiroRealm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/ability/shiro/aop/JwtFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/ability/shiro/aop/JwtFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/ability/shiro/jwt/JwtToken.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/ability/shiro/jwt/JwtToken.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/ability/shiro/jwt/JwtUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/ability/shiro/jwt/JwtUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/ability/upload/config/UploadConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/ability/upload/config/UploadConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/ability/upload/controller/UploadController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/ability/upload/controller/UploadController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/ability/upload/dto/UploadReqDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/ability/upload/dto/UploadReqDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/ability/upload/dto/UploadRespDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/ability/upload/dto/UploadRespDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/ability/upload/service/UploadService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/ability/upload/service/UploadService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/ability/upload/service/impl/UploadServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/ability/upload/service/impl/UploadServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/ability/upload/utils/FileUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/ability/upload/utils/FileUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/ability/upload/utils/MediaUtils$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/ability/upload/utils/MediaUtils$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/ability/upload/utils/MediaUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/ability/upload/utils/MediaUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/aspect/DictAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/aspect/DictAspect.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/aspect/mybatis/QueryInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/aspect/mybatis/QueryInterceptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/aspect/mybatis/UpdateInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/aspect/mybatis/UpdateInterceptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/aspect/utils/InjectUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/aspect/utils/InjectUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/config/CorsConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/config/CorsConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/config/MybatisConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/config/MybatisConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/config/ScheduledConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/config/ScheduledConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/config/ShiroConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/config/ShiroConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/config/SwaggerConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/config/SwaggerConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/core/annon/Dict.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/core/annon/Dict.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/core/api/ApiError.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/core/api/ApiError.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/core/api/ApiRest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/core/api/ApiRest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/core/api/controller/BaseController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/core/api/controller/BaseController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/core/api/dto/BaseDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/core/api/dto/BaseDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/core/api/dto/BaseIdReqDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/core/api/dto/BaseIdReqDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/core/api/dto/BaseIdRespDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/core/api/dto/BaseIdRespDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/core/api/dto/BaseIdsReqDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/core/api/dto/BaseIdsReqDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/core/api/dto/BaseStateReqDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/core/api/dto/BaseStateReqDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/core/api/dto/PagingReqDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/core/api/dto/PagingReqDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/core/api/dto/PagingRespDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/core/api/dto/PagingRespDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/core/api/utils/JsonConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/core/api/utils/JsonConverter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/core/enums/CommonState.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/core/enums/CommonState.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/core/enums/OpenType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/core/enums/OpenType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/core/exception/ServiceException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/core/exception/ServiceException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/core/exception/ServiceExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/core/exception/ServiceExceptionHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/core/utils/BeanMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/core/utils/BeanMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/core/utils/DateUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/core/utils/DateUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/core/utils/IpUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/core/utils/IpUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/core/utils/Reflections.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/core/utils/Reflections.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/core/utils/SpringUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/core/utils/SpringUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/core/utils/StringUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/core/utils/StringUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/core/utils/excel/ExportExcel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/core/utils/excel/ExportExcel$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/core/utils/excel/ExportExcel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/core/utils/excel/ExportExcel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/core/utils/excel/ImportExcel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/core/utils/excel/ImportExcel$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/core/utils/excel/ImportExcel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/core/utils/excel/ImportExcel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/core/utils/excel/annotation/ExcelField.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/core/utils/excel/annotation/ExcelField.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/core/utils/excel/fieldtype/ListType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/core/utils/excel/fieldtype/ListType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/core/utils/file/MD5Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/core/utils/file/MD5Util.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/core/utils/passwd/PassHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/core/utils/passwd/PassHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/core/utils/passwd/PassInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/core/utils/passwd/PassInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/Constant.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/Constant.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/exam/controller/ExamController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/exam/controller/ExamController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/exam/dto/ExamDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/exam/dto/ExamDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/exam/dto/ExamDepartDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/exam/dto/ExamDepartDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/exam/dto/ExamRepoDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/exam/dto/ExamRepoDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/exam/dto/ext/ExamRepoExtDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/exam/dto/ext/ExamRepoExtDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/exam/dto/request/ExamSaveReqDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/exam/dto/request/ExamSaveReqDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/exam/dto/response/ExamOnlineRespDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/exam/dto/response/ExamOnlineRespDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/exam/dto/response/ExamReviewRespDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/exam/dto/response/ExamReviewRespDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/exam/entity/Exam.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/exam/entity/Exam.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/exam/entity/ExamDepart.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/exam/entity/ExamDepart.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/exam/entity/ExamRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/exam/entity/ExamRepo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/exam/mapper/ExamDepartMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/exam/mapper/ExamDepartMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/exam/mapper/ExamMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/exam/mapper/ExamMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/exam/mapper/ExamRepoMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/exam/mapper/ExamRepoMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/exam/service/ExamDepartService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/exam/service/ExamDepartService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/exam/service/ExamRepoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/exam/service/ExamRepoService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/exam/service/ExamService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/exam/service/ExamService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/exam/service/impl/ExamDepartServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/exam/service/impl/ExamDepartServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/exam/service/impl/ExamRepoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/exam/service/impl/ExamRepoServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/controller/PaperController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/controller/PaperController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/dto/PaperQuAnswerDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/dto/PaperQuAnswerDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/dto/PaperQuDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/dto/PaperQuDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/dto/ext/PaperQuAnswerExtDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/dto/ext/PaperQuAnswerExtDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/dto/ext/PaperQuDetailDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/dto/ext/PaperQuDetailDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/dto/request/PaperAnswerDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/dto/request/PaperAnswerDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/dto/request/PaperCreateReqDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/dto/request/PaperCreateReqDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/dto/request/PaperListReqDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/dto/request/PaperListReqDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/dto/request/PaperQuQueryDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/dto/request/PaperQuQueryDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/dto/response/ExamDetailRespDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/dto/response/ExamDetailRespDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/dto/response/ExamResultRespDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/dto/response/ExamResultRespDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/dto/response/PaperListRespDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/dto/response/PaperListRespDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/entity/PaperQu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/entity/PaperQu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/entity/PaperQuAnswer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/entity/PaperQuAnswer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/enums/ExamState.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/enums/ExamState.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/enums/PaperState.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/enums/PaperState.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/mapper/PaperMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/mapper/PaperMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/mapper/PaperQuAnswerMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/mapper/PaperQuAnswerMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/mapper/PaperQuMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/mapper/PaperQuMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/service/PaperQuAnswerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/service/PaperQuAnswerService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/service/PaperQuService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/service/PaperQuService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/service/PaperService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/service/PaperService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/service/impl/PaperQuAnswerServiceImpl$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/service/impl/PaperQuAnswerServiceImpl$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/service/impl/PaperQuAnswerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/service/impl/PaperQuAnswerServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/service/impl/PaperQuServiceImpl$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/service/impl/PaperQuServiceImpl$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/service/impl/PaperQuServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/service/impl/PaperQuServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/service/impl/PaperServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/service/impl/PaperServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/qu/controller/QuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/qu/controller/QuController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/qu/dto/QuAnswerDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/qu/dto/QuAnswerDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/qu/dto/QuDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/qu/dto/QuDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/qu/dto/QuRepoDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/qu/dto/QuRepoDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/qu/dto/export/QuExportDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/qu/dto/export/QuExportDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/qu/dto/export/QuImportDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/qu/dto/export/QuImportDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/qu/dto/ext/QuDetailDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/qu/dto/ext/QuDetailDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/qu/dto/request/QuQueryReqDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/qu/dto/request/QuQueryReqDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/qu/dto/request/QuRepoBatchReqDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/qu/dto/request/QuRepoBatchReqDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/qu/entity/Qu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/qu/entity/Qu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/qu/entity/QuAnswer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/qu/entity/QuAnswer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/qu/entity/QuRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/qu/entity/QuRepo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/qu/enums/QuType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/qu/enums/QuType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/qu/mapper/QuAnswerMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/qu/mapper/QuAnswerMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/qu/mapper/QuMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/qu/mapper/QuMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/qu/mapper/QuRepoMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/qu/mapper/QuRepoMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/qu/service/QuAnswerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/qu/service/QuAnswerService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/qu/service/QuRepoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/qu/service/QuRepoService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/qu/service/QuService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/qu/service/QuService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/qu/service/impl/QuAnswerServiceImpl$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/qu/service/impl/QuAnswerServiceImpl$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/qu/service/impl/QuAnswerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/qu/service/impl/QuAnswerServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/qu/service/impl/QuRepoServiceImpl$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/qu/service/impl/QuRepoServiceImpl$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/qu/service/impl/QuRepoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/qu/service/impl/QuRepoServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/qu/service/impl/QuServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/qu/service/impl/QuServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/repo/controller/RepoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/repo/controller/RepoController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/repo/dto/RepoDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/repo/dto/RepoDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/repo/dto/request/RepoReqDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/repo/dto/request/RepoReqDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/repo/dto/response/RepoRespDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/repo/dto/response/RepoRespDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/repo/entity/Repo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/repo/entity/Repo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/repo/mapper/RepoMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/repo/mapper/RepoMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/repo/service/RepoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/repo/service/RepoService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/repo/service/impl/RepoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/repo/service/impl/RepoServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/config/controller/SysConfigController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/config/controller/SysConfigController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/config/dto/SysConfigDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/config/dto/SysConfigDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/config/entity/SysConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/config/entity/SysConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/config/mapper/SysConfigMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/config/mapper/SysConfigMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/config/service/SysConfigService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/config/service/SysConfigService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/config/service/impl/SysConfigServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/config/service/impl/SysConfigServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/depart/controller/SysDepartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/depart/controller/SysDepartController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/depart/dto/SysDepartDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/depart/dto/SysDepartDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/depart/dto/request/DepartSortReqDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/depart/dto/request/DepartSortReqDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/depart/dto/response/SysDepartTreeDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/depart/dto/response/SysDepartTreeDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/depart/entity/SysDepart.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/depart/entity/SysDepart.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/depart/mapper/SysDepartMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/depart/mapper/SysDepartMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/depart/service/SysDepartService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/depart/service/SysDepartService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/depart/service/impl/SysDepartServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/depart/service/impl/SysDepartServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/system/mapper/SysDictMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/system/mapper/SysDictMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/system/service/SysDictService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/system/service/SysDictService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/system/service/impl/SysDictServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/system/service/impl/SysDictServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/user/controller/SysRoleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/user/controller/SysRoleController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/user/controller/SysUserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/user/controller/SysUserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/user/dto/SysRoleDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/user/dto/SysRoleDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/user/dto/SysUserDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/user/dto/SysUserDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/user/dto/SysUserRoleDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/user/dto/SysUserRoleDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/user/dto/request/SysUserLoginReqDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/user/dto/request/SysUserLoginReqDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/user/dto/request/SysUserSaveReqDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/user/dto/request/SysUserSaveReqDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/user/dto/request/SysUserTokenReqDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/user/dto/request/SysUserTokenReqDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/user/dto/response/SysUserLoginDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/user/dto/response/SysUserLoginDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/user/entity/SysRole.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/user/entity/SysRole.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/user/entity/SysUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/user/entity/SysUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/user/entity/SysUserRole.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/user/entity/SysUserRole.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/user/mapper/SysRoleMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/user/mapper/SysRoleMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/user/mapper/SysUserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/user/mapper/SysUserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/user/mapper/SysUserRoleMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/user/mapper/SysUserRoleMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/user/service/SysRoleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/user/service/SysRoleService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/user/service/SysUserRoleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/user/service/SysUserRoleService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/user/service/SysUserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/user/service/SysUserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/user/service/impl/SysRoleServiceImpl$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/user/service/impl/SysRoleServiceImpl$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/user/service/impl/SysRoleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/user/service/impl/SysRoleServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/user/service/impl/SysUserRoleServiceImpl$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/user/service/impl/SysUserRoleServiceImpl$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/user/service/impl/SysUserRoleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/user/service/impl/SysUserRoleServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/user/service/impl/SysUserServiceImpl$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/user/service/impl/SysUserServiceImpl$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/user/service/impl/SysUserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/user/service/impl/SysUserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/user/UserUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/user/UserUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/user/book/controller/UserBookController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/user/book/controller/UserBookController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/user/book/dto/UserBookDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/user/book/dto/UserBookDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/user/book/entity/UserBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/user/book/entity/UserBook.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/user/book/mapper/UserBookMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/user/book/mapper/UserBookMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/user/book/service/UserBookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/user/book/service/UserBookService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/user/book/service/impl/UserBookServiceImpl$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/user/book/service/impl/UserBookServiceImpl$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/user/book/service/impl/UserBookServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/user/book/service/impl/UserBookServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/user/exam/controller/UserExamController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/user/exam/controller/UserExamController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/user/exam/dto/UserExamDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/user/exam/dto/UserExamDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/user/exam/dto/request/UserExamReqDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/user/exam/dto/request/UserExamReqDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/user/exam/dto/response/UserExamRespDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/user/exam/dto/response/UserExamRespDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/user/exam/entity/UserExam.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/user/exam/entity/UserExam.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/user/exam/mapper/UserExamMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/user/exam/mapper/UserExamMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/user/exam/service/UserExamService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/user/exam/service/UserExamService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/user/exam/service/impl/UserExamServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/user/exam/service/impl/UserExamServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/sys/user/SysUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/sys/user/SysUserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/public/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/public/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/public/course_detial.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/public/course_detial.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/public/course_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/public/course_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/public/images/ewm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/public/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/public/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/public/news_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/public/news_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/public/news_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/public/news_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/public/notice.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/public/notice.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/public/picture_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/public/picture_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/public/picture_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/public/picture_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/public/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/public/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exam-vue/exam-api/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../exam-vue/exam-api/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exam-vue/exam-api/src/main/resources/application-local.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../exam-vue/exam-api/src/main/resources/application-local.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exam-vue/exam-api/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../exam-vue/exam-api/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exam-vue/exam-api/src/main/resources/mapper/sys/user/SysUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../exam-vue/exam-api/src/main/resources/mapper/sys/user/SysUserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exam-vue/src/views/profile/components/Account.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../exam-vue/src/views/profile/components/Account.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/public/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/public/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/ExamApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/ability/Constant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/ability/shiro/ShiroRealm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/ability/shiro/aop/JwtFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/ability/shiro/jwt/JwtToken.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/ability/shiro/jwt/JwtUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/ability/upload/config/UploadConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/ability/upload/controller/UploadController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/ability/upload/dto/UploadReqDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/ability/upload/dto/UploadRespDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/ability/upload/service/UploadService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/ability/upload/service/impl/UploadServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/ability/upload/utils/FileUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/ability/upload/utils/MediaUtils$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/ability/upload/utils/MediaUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/aspect/DictAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/aspect/mybatis/QueryInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/aspect/mybatis/UpdateInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/aspect/utils/InjectUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/config/CorsConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/config/MybatisConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/config/ScheduledConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/config/ShiroConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/config/SwaggerConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/core/annon/Dict.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/core/api/ApiError.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/core/api/ApiRest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/core/api/controller/BaseController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/core/api/dto/BaseDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/core/api/dto/BaseIdReqDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/core/api/dto/BaseIdRespDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/core/api/dto/BaseIdsReqDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/core/api/dto/BaseStateReqDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/core/api/dto/PagingReqDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/core/api/dto/PagingRespDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/core/api/utils/JsonConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/core/enums/CommonState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/core/enums/OpenType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/core/exception/ServiceException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/core/exception/ServiceExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/core/utils/BeanMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/core/utils/DateUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/core/utils/IpUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/core/utils/Reflections.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/core/utils/SpringUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/core/utils/StringUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/core/utils/excel/ExportExcel$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/core/utils/excel/ExportExcel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/core/utils/excel/ImportExcel$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/core/utils/excel/ImportExcel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/core/utils/excel/annotation/ExcelField.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/core/utils/excel/fieldtype/ListType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/core/utils/file/MD5Util.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/core/utils/passwd/PassHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/core/utils/passwd/PassInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/Constant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/exam/controller/ExamController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/exam/dto/ExamDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/exam/dto/ExamDepartDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/exam/dto/ExamRepoDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/exam/dto/ext/ExamRepoExtDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/exam/dto/request/ExamSaveReqDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/exam/dto/response/ExamOnlineRespDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/exam/dto/response/ExamReviewRespDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/exam/entity/Exam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/exam/entity/ExamDepart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/exam/entity/ExamRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/exam/mapper/ExamDepartMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/exam/mapper/ExamMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/exam/mapper/ExamRepoMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/exam/service/ExamDepartService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/exam/service/ExamRepoService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/exam/service/ExamService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/exam/service/impl/ExamDepartServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/exam/service/impl/ExamRepoServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/exam/service/impl/ExamServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/controller/PaperController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/dto/PaperDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/dto/PaperQuAnswerDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/dto/PaperQuDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/dto/ext/PaperQuAnswerExtDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/dto/ext/PaperQuDetailDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/dto/request/PaperAnswerDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/dto/request/PaperCreateReqDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/dto/request/PaperListReqDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/dto/request/PaperQuQueryDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/dto/response/ExamDetailRespDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/dto/response/ExamResultRespDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/dto/response/PaperListRespDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/entity/Paper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/entity/PaperQu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/entity/PaperQuAnswer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/enums/ExamState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/enums/PaperState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/mapper/PaperMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/mapper/PaperQuAnswerMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/mapper/PaperQuMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/service/PaperQuAnswerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/service/PaperQuService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/service/PaperService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/service/impl/PaperQuAnswerServiceImpl$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/service/impl/PaperQuAnswerServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/service/impl/PaperQuServiceImpl$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/service/impl/PaperQuServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/paper/service/impl/PaperServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/qu/controller/QuController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/qu/dto/QuAnswerDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/qu/dto/QuDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/qu/dto/QuRepoDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/qu/dto/export/QuExportDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/qu/dto/export/QuImportDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/qu/dto/ext/QuDetailDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/qu/dto/request/QuQueryReqDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/qu/dto/request/QuRepoBatchReqDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/qu/entity/Qu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/qu/entity/QuAnswer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/qu/entity/QuRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/qu/enums/QuType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/qu/mapper/QuAnswerMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/qu/mapper/QuMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/qu/mapper/QuRepoMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/qu/service/QuAnswerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/qu/service/QuRepoService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/qu/service/QuService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/qu/service/impl/QuAnswerServiceImpl$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/qu/service/impl/QuAnswerServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/qu/service/impl/QuRepoServiceImpl$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/qu/service/impl/QuRepoServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/qu/service/impl/QuServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/repo/controller/RepoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/repo/dto/RepoDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/repo/dto/request/RepoReqDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/repo/dto/response/RepoRespDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/repo/entity/Repo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/repo/mapper/RepoMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/repo/service/RepoService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/repo/service/impl/RepoServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/config/controller/SysConfigController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/config/dto/SysConfigDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/config/entity/SysConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/config/mapper/SysConfigMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/config/service/SysConfigService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/config/service/impl/SysConfigServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/depart/controller/SysDepartController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/depart/dto/SysDepartDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/depart/dto/request/DepartSortReqDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/depart/dto/response/SysDepartTreeDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/depart/entity/SysDepart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/depart/mapper/SysDepartMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/depart/service/SysDepartService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/depart/service/impl/SysDepartServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/system/mapper/SysDictMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/system/service/SysDictService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/system/service/impl/SysDictServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/user/controller/SysRoleController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/user/controller/SysUserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/user/dto/SysRoleDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/user/dto/SysUserDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/user/dto/SysUserRoleDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/user/dto/request/SysUserLoginReqDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/user/dto/request/SysUserSaveReqDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/user/dto/request/SysUserTokenReqDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/user/dto/response/SysUserLoginDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/user/entity/SysRole.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/user/entity/SysUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/user/entity/SysUserRole.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/user/mapper/SysRoleMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/user/mapper/SysUserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/user/mapper/SysUserRoleMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/user/service/SysRoleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/user/service/SysUserRoleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/user/service/SysUserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/user/service/impl/SysRoleServiceImpl$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/user/service/impl/SysRoleServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/user/service/impl/SysUserRoleServiceImpl$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/user/service/impl/SysUserRoleServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/user/service/impl/SysUserServiceImpl$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/sys/user/service/impl/SysUserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/user/UserUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/user/book/controller/UserBookController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/user/book/dto/UserBookDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/user/book/entity/UserBook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/user/book/mapper/UserBookMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/user/book/service/UserBookService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/user/book/service/impl/UserBookServiceImpl$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/user/book/service/impl/UserBookServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/user/exam/controller/UserExamController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/user/exam/dto/UserExamDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/user/exam/dto/request/UserExamReqDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/user/exam/dto/response/UserExamRespDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/user/exam/entity/UserExam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/user/exam/mapper/UserExamMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/user/exam/service/UserExamService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yf/exam/modules/user/exam/service/impl/UserExamServiceImpl.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -233,98 +213,123 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/sys/user/controller/SysUserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1620">
-              <caret line="89" column="5" lean-forward="true" selection-start-line="89" selection-start-column="5" selection-end-line="89" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/sys/user/dto/SysRoleDTO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-23">
-              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/sys/user/dto/SysUserDTO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-335">
-              <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/sys/user/dto/SysUserRoleDTO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-23">
-              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/sys/user/entity/SysUserRole.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-389">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/sys/user/SysRoleMapper.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/sys/user/SysUserMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="6" column="40" lean-forward="true" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+            <state relative-caret-position="125">
+              <caret line="54" column="25" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/sys/user/SysUserRoleMapper.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/public/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+            <state relative-caret-position="51">
+              <caret line="78" column="20" lean-forward="true" selection-start-line="78" selection-start-column="20" selection-end-line="78" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/sys/user/entity/SysUser.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/core/api/dto/PagingReqDTO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-821">
-              <caret line="54" column="11" selection-start-line="54" selection-start-column="11" selection-end-line="54" selection-end-column="11" />
+            <state relative-caret-position="266">
+              <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/sys/user/entity/SysRole.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="33" column="27" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="27" />
+            <state relative-caret-position="-754">
+              <caret line="100" selection-start-line="100" selection-end-line="100" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/user/book/entity/UserBook.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="139">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/sys/user/service/SysUserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="366">
+              <caret line="41" column="27" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/sys/user/service/impl/SysUserServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="111" column="15" selection-start-line="111" selection-start-column="15" selection-end-line="111" selection-end-column="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/sys/user/dto/request/SysUserSaveReqDTO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="302">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/sys/user/dto/request/SysUserLoginReqDTO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/sys/user/dto/request/SysUserDetailReqDTO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="21" column="50" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -345,6 +350,7 @@
       <find>password</find>
       <find>BaseResultMap</find>
       <find>role</find>
+      <find>paging</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -353,7 +359,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/yf/exam/modules/sys/user/controller/SysUserController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/src/main/resources/application-dev.yml" />
         <option value="$PROJECT_DIR$/src/main/resources/application-local.yml" />
@@ -361,7 +366,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/yf/exam/modules/sys/user/entity/SysUser.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/sys/user/SysUserMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/yf/exam/modules/sys/user/dto/request/SysUserSaveReqDTO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yf/exam/modules/sys/user/dto/request/SysUserDetailReqDTO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yf/exam/modules/sys/user/dto/response/SysUserDetailDTO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yf/exam/modules/sys/user/service/SysUserService.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/yf/exam/modules/sys/user/service/impl/SysUserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yf/exam/modules/sys/user/controller/SysUserController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/public/login.html" />
       </list>
     </option>
   </component>
@@ -375,15 +386,15 @@
     </option>
     <option name="importingSettings">
       <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
         <option name="jdkForImporter" value="17" />
       </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="161" />
-    <option name="y" value="81" />
-    <option name="width" value="1719" />
-    <option name="height" value="1775" />
+    <option name="x" value="951" />
+    <option name="width" value="978" />
+    <option name="height" value="1029" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -696,7 +707,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -738,12 +749,13 @@
       <option name="presentableId" value="Default" />
       <updated>1685619370368</updated>
       <workItem from="1685619371798" duration="5114000" />
-      <workItem from="1685705437726" duration="6573000" />
+      <workItem from="1685705437726" duration="13709000" />
+      <workItem from="1685789924198" duration="5851000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11687000" />
+    <option name="totallyTimeSpent" value="24674000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="830" extended-state="6" />
@@ -759,7 +771,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32884902" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.71300447" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -788,55 +800,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/repo/service/RepoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/repo/dto/RepoDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/repo/controller/RepoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="53" column="5" lean-forward="true" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/exam/controller/ExamController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="49" column="45" selection-start-line="49" selection-start-column="45" selection-end-line="49" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/exam/dto/request/ExamSaveReqDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="19" column="49" lean-forward="true" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/paper/service/impl/PaperServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="305" column="28" selection-start-line="305" selection-start-column="20" selection-end-line="305" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/qu/service/QuRepoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-246">
-          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/qu/service/QuAnswerService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-178">
@@ -979,59 +942,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/sys/user/mapper/SysUserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/sys/user/dto/request/SysUserLoginReqDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/sys/user/dto/request/SysUserTokenReqDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/sys/user/dto/response/SysUserLoginDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="652">
-          <caret line="39" column="32" lean-forward="true" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/sys/user/dto/request/SysUserSaveReqDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="37" column="25" lean-forward="true" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/sys/user/service/SysUserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="33" column="50" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/softwareSpace/Evironment/idea/repository/com/baomidou/mybatis-plus-core/3.4.1/mybatis-plus-core-3.4.1.jar!/com/baomidou/mybatisplus/core/metadata/IPage.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1076">
           <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/sys/user/service/impl/SysUserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="74" column="11" selection-start-line="74" selection-start-column="11" selection-end-line="74" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -1055,13 +969,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/sys/user/service/impl/SysUserRoleServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="79" column="23" selection-start-line="79" selection-start-column="23" selection-end-line="79" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/sys/user/controller/SysRoleController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-914">
@@ -1069,24 +976,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/sys/user/controller/SysUserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1620">
-          <caret line="89" column="5" lean-forward="true" selection-start-line="89" selection-start-column="5" selection-end-line="89" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/sys/user/dto/SysRoleDTO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-23">
           <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/sys/user/dto/SysUserDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-335">
-          <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -1101,13 +994,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="274">
           <caret line="33" column="27" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/sys/user/entity/SysUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-821">
-          <caret line="54" column="11" selection-start-line="54" selection-start-column="11" selection-end-line="54" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -1130,8 +1016,152 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/sys/user/SysUserRoleMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/sys/user/mapper/SysUserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
-          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/sys/user/service/SysRoleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/sys/user/service/impl/SysUserRoleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2154">
+          <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/sys/user/dto/SysUserDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1431">
+          <caret line="58" column="26" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="58" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/sys/user/dto/response/SysUserLoginDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/sys/user/entity/SysUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="73" column="27" selection-start-line="73" selection-start-column="27" selection-end-line="73" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/sys/user/dto/response/SysUserDetailDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/sys/user/dto/request/SysUserTokenReqDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/sys/user/service/impl/SysUserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="111" column="15" selection-start-line="111" selection-start-column="15" selection-end-line="111" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/sys/user/service/SysUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="41" column="27" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/sys/user/dto/request/SysUserSaveReqDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/sys/user/dto/request/SysUserDetailReqDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="21" column="50" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/sys/user/dto/request/SysUserLoginReqDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/sys/user/controller/SysUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="54" column="25" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/user/book/entity/UserBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-754">
+          <caret line="100" selection-start-line="100" selection-end-line="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/core/api/dto/PagingReqDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/public/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="78" column="20" lean-forward="true" selection-start-line="78" selection-start-column="20" selection-end-line="78" selection-end-column="20" />
         </state>
       </provider>
     </entry>

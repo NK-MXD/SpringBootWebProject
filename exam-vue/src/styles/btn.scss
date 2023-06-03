@@ -1,5 +1,6 @@
 @import './variables.scss';
 
+
 @mixin colorBtn($color) {
   background: $color;
 
@@ -13,12 +14,12 @@
   }
 }
 
-.blue-btn {
-  @include colorBtn($blue)
+.purple-btn {
+  @include colorBtn($purple)
 }
 
-.light-blue-btn {
-  @include colorBtn($light-blue)
+.light-purple-btn {
+  @include colorBtn($light-purple)
 }
 
 .red-btn {

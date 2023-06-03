@@ -110,11 +110,11 @@ aside {
   -moz-osx-font-smoothing: grayscale;
 
   a {
-    color: #337ab7;
+    color: #7133b7;
     cursor: pointer;
 
     &:hover {
-      color: rgb(32, 160, 255);
+      color: rgb(132, 32, 255);
     }
   }
 }
@@ -145,7 +145,7 @@ aside {
   text-align: right;
   padding-right: 20px;
   transition: 600ms ease position;
-  background: linear-gradient(90deg, rgba(32, 182, 249, 1) 0%, rgba(32, 182, 249, 1) 0%, rgba(33, 120, 241, 1) 100%, rgba(33, 120, 241, 1) 100%);
+  background: linear-gradient(90deg, rgb(130, 32, 249) 0%, rgb(132, 32, 249) 0%, rgb(134, 33, 241) 100%, rgb(130, 33, 241) 100%);
 
   .subtitle {
     font-size: 20px;
@@ -163,11 +163,11 @@ aside {
 
 .link-type,
 .link-type:focus {
-  color: #337ab7;
+  color: #8033b7;
   cursor: pointer;
 
   &:hover {
-    color: rgb(32, 160, 255);
+    color: rgb(140, 32, 255);
   }
 }
 
@@ -201,12 +201,12 @@ aside {
 }
 
 .title-box div{
-  color: #1890ff;
+  color: #8818ff;
   font-size: 14px;
   font-weight: 500;
   box-sizing: border-box;
   line-height: 40px;
   height: 40px;
-  border-bottom: #1890ff 2px solid;
+  border-bottom: #8818ff 2px solid;
   margin-bottom: -2px;
 }

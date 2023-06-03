@@ -112,7 +112,7 @@ export const asyncRoutes = [
     meta: {
       title: '在线考试',
       icon: 'list',
-      roles: ['student', 'sa']
+      roles: ['signedup-student', 'sa']
     },
     children: [
 

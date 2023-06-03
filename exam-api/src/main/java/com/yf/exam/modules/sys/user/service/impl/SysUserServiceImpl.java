@@ -17,6 +17,7 @@ import com.yf.exam.core.utils.passwd.PassInfo;
 import com.yf.exam.ability.shiro.jwt.JwtUtils;
 import com.yf.exam.modules.sys.user.dto.SysUserDTO;
 import com.yf.exam.modules.sys.user.dto.request.SysUserSaveReqDTO;
+import com.yf.exam.modules.sys.user.dto.response.SysUserDetailDTO;
 import com.yf.exam.modules.sys.user.dto.response.SysUserLoginDTO;
 import com.yf.exam.modules.sys.user.entity.SysUser;
 import com.yf.exam.modules.sys.user.mapper.SysUserMapper;
@@ -100,6 +101,34 @@ public class SysUserServiceImpl extends ServiceImpl<SysUserMapper, SysUser> impl
         }
 
         return this.setToken(user);
+    }
+
+    @Override
+    public SysUserDetailDTO findDetail(String userName) {
+        // 创建查询条件
+        QueryWrapper<SysUser> wrapper = new QueryWrapper<>();
+        wrapper.lambda().eq(SysUser::getUserName, userName);
+
+        // 执行查询
+        SysUser user = this.getOne(wrapper, false);
+        if (user == null) {
+            // 用户不存在，可以根据需求抛出异常或返回空对象
+            throw new ServiceException("User not found");
+        }
+
+        // 将用户信息转换为详情对象
+        SysUserDetailDTO detailDTO = new SysUserDetailDTO();
+        detailDTO.setUserName(user.getUserName());
+        detailDTO.setRealName(user.getRealName());
+        detailDTO.setPassword(user.getPassword());
+        detailDTO.setPhone(user.getPhone());
+        detailDTO.setChnid(user.getChnid());
+        detailDTO.setPhone(user.getPhone());
+        detailDTO.setDepartId(user.getDepartId());
+        detailDTO.setPhone(user.getPhone());
+        // 其他属性依次设置
+
+        return detailDTO;
     }
 
     @Override

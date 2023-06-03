@@ -8,8 +8,10 @@ import com.yf.exam.core.api.dto.BaseIdsReqDTO;
 import com.yf.exam.core.api.dto.BaseStateReqDTO;
 import com.yf.exam.core.api.dto.PagingReqDTO;
 import com.yf.exam.modules.sys.user.dto.SysUserDTO;
+import com.yf.exam.modules.sys.user.dto.request.SysUserDetailReqDTO;
 import com.yf.exam.modules.sys.user.dto.request.SysUserLoginReqDTO;
 import com.yf.exam.modules.sys.user.dto.request.SysUserSaveReqDTO;
+import com.yf.exam.modules.sys.user.dto.response.SysUserDetailDTO;
 import com.yf.exam.modules.sys.user.dto.response.SysUserLoginDTO;
 import com.yf.exam.modules.sys.user.entity.SysUser;
 import com.yf.exam.modules.sys.user.service.SysUserService;
@@ -50,6 +52,18 @@ public class SysUserController extends BaseController {
     @RequestMapping(value = "/login", method = {RequestMethod.POST})
     public ApiRest<SysUserLoginDTO> login(@RequestBody SysUserLoginReqDTO reqDTO) {
         SysUserLoginDTO respDTO = baseService.login(reqDTO.getUsername(), reqDTO.getPassword());
+        return super.success(respDTO);
+    }
+
+    /**
+     * 用户信息
+     * @return
+     */
+    @CrossOrigin
+    @ApiOperation(value = "用户信息")
+    @RequestMapping(value = "/detail", method = {RequestMethod.POST})
+    public ApiRest<SysUserDetailDTO> findDetail(@RequestBody SysUserDetailReqDTO reqDTO) {
+        SysUserDetailDTO respDTO = baseService.findDetail(reqDTO.getUsername());
         return super.success(respDTO);
     }
 

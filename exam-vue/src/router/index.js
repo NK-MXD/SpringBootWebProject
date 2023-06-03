@@ -103,18 +103,25 @@ export const asyncRoutes = [
     meta: { title: '开始考试' },
     hidden: true
   },
-
+  
   {
     path: '/my',
     component: Layout,
     redirect: '/my/exam',
     name: 'Online',
     meta: {
-      title: '在线考试',
+      title: '我的考试',
       icon: 'list',
-      roles: ['signedup-student', 'sa']
+      roles: ['student', 'sa']
     },
     children: [
+
+      {
+        path: 'application',
+        component: () => import('@/views/application/index'),
+        name: 'ExamOnline',
+        meta: { title: '考试报名', noCache: true, icon: 'repo' }
+      },
 
       {
         path: 'exam',

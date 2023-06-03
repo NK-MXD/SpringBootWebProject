@@ -28,7 +28,6 @@
         <p v-if="item.image!=null && item.image!=''">
           <el-image :src="item.image" style="max-width:100%;" />
         </p>
-
         <div v-if="item.quType === 1 || item.quType===3">
           <el-radio-group v-model="radioValues[item.id]">
             <el-radio v-for="an in item.answerList" :label="an.id">
@@ -78,17 +77,6 @@
             <el-col :span="12">
               我的回答：{{ item.answer }}
             </el-col>
-            
-            <p>
-            </p>
-            <el-col style="color: #24da70">
-              参考答案：{{ item.answer }}
-            </el-col>
-
-            <el-col style="text-align: right; color: #24da70;">
-              得分： 
-              <el-input-number v-model="item.actualScore" :min="0" :max="item.score"></el-input-number>
-            </el-col>
 
           </el-row>
 
@@ -134,8 +122,6 @@
           </el-row>
         </div>
 
-        
-
       </div>
 
     </el-card>
@@ -160,8 +146,7 @@ export default {
       radioRights: {},
       multiRights: {},
       myRadio: {},
-      myMulti: {},
-      trueAnswer: ''
+      myMulti: {}
     }
   },
   created() {

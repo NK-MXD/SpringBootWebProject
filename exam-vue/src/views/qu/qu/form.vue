@@ -126,20 +126,8 @@
         <el-button class="filter-item" type="primary" icon="el-icon-plus" size="small" plain @click="handleAdd">
           添加
         </el-button>
-        <el-table
-          :data="postForm.answerList"
-          :border="true"
-          style="width: 100%;"
-        >
-          <el-table-column
-              label="参考答案"
-            >
-              <template slot-scope="scope">
-                <el-input v-model="scope.row.content" type="textarea" />
-              </template>
-          </el-table-column>
 
-        </el-table>
+        
       </div>
       
 
@@ -222,8 +210,8 @@ export default {
     handleTypeChange(v) {
       this.postForm.answerList = []
       if (v === 3) {
-        this.postForm.answerList.push({ isRight: true, content: 'True', analysis: '' })
-        this.postForm.answerList.push({ isRight: false, content: 'False', analysis: '' })
+        this.postForm.answerList.push({ isRight: true, content: '正确', analysis: '' })
+        this.postForm.answerList.push({ isRight: false, content: '错误', analysis: '' })
       }
 
       if (v === 1 || v === 2) {

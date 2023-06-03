@@ -30,7 +30,14 @@ export default {
       type: Object,
       default: () => {
         return {
-          password: ''
+          name: '',
+          email: '',
+          avatar: '',
+          roles: '',
+          password: '',
+          departId: '',
+          phone: '',
+          chnid: ''
         }
       }
     }
@@ -49,8 +56,8 @@ export default {
           type: 'success',
           duration: 2000
         })
-
-        this.logout()
+        // this.departId = ''
+        // this.logout()
       })
     }
   }

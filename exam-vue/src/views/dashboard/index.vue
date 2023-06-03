@@ -122,7 +122,7 @@ export default {
 }
 
 .box a{
-  color: #9720ff;
+  color: #20a0ff;
 }
 
 .box a:hover{

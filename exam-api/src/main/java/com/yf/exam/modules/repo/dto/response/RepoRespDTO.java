@@ -10,8 +10,7 @@ import lombok.Data;
 * 题库请求类
 * </p>
 *
-* @author  
-* @since 2020-05-25 13:23
+* @author  软工小队
 */
 @Data
 @ApiModel(value="题库分页响应类", description="题库分页响应类")

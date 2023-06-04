@@ -10,8 +10,7 @@ import lombok.NoArgsConstructor;
 
 /**
  * 数据结果返回的封装
- * @author bool 
- * @date 2018/11/20 09:48
+ * @author 软工小队
  */
 @Data
 @NoArgsConstructor

@@ -13,8 +13,7 @@ import java.util.List;
 * 管理用户请求类
 * </p>
 *
-* @author  
-* @since 2020-04-13 16:57
+* @author  软工小队
 */
 @Data
 @ApiModel(value="管理用户登录响应类", description="管理用户登录响应类")

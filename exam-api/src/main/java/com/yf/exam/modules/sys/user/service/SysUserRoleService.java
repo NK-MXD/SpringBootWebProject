@@ -13,8 +13,7 @@ import java.util.List;
 * 用户角色业务类
 * </p>
 *
-* @author  
-* @since 2020-04-13 16:57
+* @author  软工小队
 */
 public interface SysUserRoleService extends IService<SysUserRole> {
 

@@ -14,10 +14,8 @@ import java.net.UnknownHostException;
 import java.util.List;
 
 /**
- * 云帆在线考试系统
- * @author bool
- * @email 18365918@qq.com
- * @date 2020-03-04 19:41
+ * 六级考试系统
+ * @author 软工小队
  */
 @Log4j2
 @SpringBootApplication

@@ -3,8 +3,7 @@ package com.yf.exam.core.enums;
 /**
  * 通用的状态枚举信息
  *
- * @author bool
- * @date 2019-09-17 17:57
+ * @author 软工小队
  */
 public interface CommonState {
 

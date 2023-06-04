@@ -11,8 +11,7 @@ import java.io.Serializable;
  * 获取用户信息类
  * </p>
  *
- * @author
- * @since 2020-04-13 16:57
+ * @author 软工小队
  */
 @Data
 @ApiModel(value="获取用户信息类", description="获取用户信息类")

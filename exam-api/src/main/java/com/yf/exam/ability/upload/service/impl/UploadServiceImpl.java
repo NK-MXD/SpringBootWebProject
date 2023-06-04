@@ -23,8 +23,7 @@ import java.util.regex.Pattern;
 
 /**
  * 文件上传业务类
- * @author bool 
- * @date 2019-07-30 21:02
+ * @author 软工小队
  */
 @Log4j2
 @Service

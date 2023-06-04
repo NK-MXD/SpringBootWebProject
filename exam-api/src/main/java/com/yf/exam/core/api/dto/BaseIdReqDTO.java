@@ -11,8 +11,7 @@ import lombok.Data;
  * 主键通用请求类，用于根据ID查询
  * </p>
  *
- * @author  
- * @since 2019-04-20 12:15
+ * @author  软工小队
  */
 @Data
 @ApiModel(value="主键通用请求类", description="主键通用请求类")

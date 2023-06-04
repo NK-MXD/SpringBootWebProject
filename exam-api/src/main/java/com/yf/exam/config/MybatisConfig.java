@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Configuration;
 /**
  * Mybatis过滤器配置
  * 注意：必须按顺序进行配置，否则容易出现业务异常
- * @author bool
+ * @author 软工小队
  */
 @Configuration
 @MapperScan("com.yf.exam.modules.**.mapper")

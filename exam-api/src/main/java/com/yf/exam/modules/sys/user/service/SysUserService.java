@@ -14,8 +14,7 @@ import com.yf.exam.core.api.dto.PagingReqDTO;
 * 管理用户业务类
 * </p>
 *
-* @author  
-* @since 2020-04-13 16:57
+* @author  软工小队
 */
 public interface SysUserService extends IService<SysUser> {
 

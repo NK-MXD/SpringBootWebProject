@@ -23,7 +23,7 @@ import java.util.Map;
 
 /**
  * Shiro配置类
- * @author bool
+ * @author 软工小队
  */
 @Slf4j
 @Configuration

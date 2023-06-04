@@ -12,8 +12,7 @@ import lombok.Data;
 * 部门信息实体类
 * </p>
 *
-* @author  
-* @since 2020-09-02 17:25
+* @author  软工小队
 */
 @Data
 @TableName("sys_depart")

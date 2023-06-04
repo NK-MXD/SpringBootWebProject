@@ -10,8 +10,7 @@ import lombok.Data;
 * 考试题库数据传输类
 * </p>
 *
-* @author  
-* @since 2020-09-05 11:14
+* @author 软工小队
 */
 @Data
 @ApiModel(value="考试题库扩展响应类", description="考试题库扩展响应类")

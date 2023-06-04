@@ -8,7 +8,7 @@ import java.util.List;
 
 /**
  * 用于导出的数据结构
- * @author bool
+ * @author 软工小队
  */
 @Data
 public class QuExportDTO {

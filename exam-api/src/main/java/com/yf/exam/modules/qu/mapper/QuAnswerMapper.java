@@ -8,8 +8,7 @@ import com.yf.exam.modules.qu.entity.QuAnswer;
 * 候选答案Mapper
 * </p>
 *
-* @author  
-* @since 2020-05-25 13:23
+* @author  软工小队
 */
 public interface QuAnswerMapper extends BaseMapper<QuAnswer> {
 

@@ -21,7 +21,7 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  * 本地文件上传下载请求类
- * @author bool
+ * @author 软工小队
  */
 @Log4j2
 @Api(tags = {"文件上传"})

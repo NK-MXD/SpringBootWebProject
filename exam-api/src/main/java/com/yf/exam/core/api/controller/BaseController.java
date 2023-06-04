@@ -7,7 +7,7 @@ import com.yf.exam.core.exception.ServiceException;
 
 /**
  * 基础控制器
- * @author Dav
+ * @author 软工小队
  */
 public class BaseController {
 

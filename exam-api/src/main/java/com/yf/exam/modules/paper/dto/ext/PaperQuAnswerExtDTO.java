@@ -10,8 +10,7 @@ import lombok.Data;
 * 试卷考题备选答案请求类
 * </p>
 *
-* @author  
-* @since 2020-05-25 17:31
+* @author  软工小队
 */
 @Data
 @ApiModel(value="试卷考题备选答案", description="试卷考题备选答案")

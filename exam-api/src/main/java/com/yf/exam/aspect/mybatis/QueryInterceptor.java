@@ -27,7 +27,7 @@ import java.util.Properties;
 /**
  * 查询拦截器，用于拦截处理通用的信息、如用户ID、多租户信息等；
  * 特别注意：此处继承了PaginationInterceptor分页，分页必须在拦截数据后执行，否则容易出现分页不准确，分页计数大于实际数量等问题
- * @author bool
+ * @author 软工小队
  */
 @Log4j2
 @Intercepts({@Signature(type = StatementHandler.class, method = "prepare", args = {Connection.class, Integer.class}),})

@@ -12,8 +12,7 @@ import java.util.Date;
 * 管理用户请求类
 * </p>
 *
-* @author  
-* @since 2020-04-13 16:57
+* @author  软工小队
 */
 @Data
 @ApiModel(value="管理用户", description="管理用户")

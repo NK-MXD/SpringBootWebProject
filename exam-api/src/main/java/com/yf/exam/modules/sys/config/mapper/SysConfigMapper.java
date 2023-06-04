@@ -8,8 +8,7 @@ import com.yf.exam.modules.sys.config.entity.SysConfig;
 * 通用配置Mapper
 * </p>
 *
-* @author  
-* @since 2020-04-17 09:12
+* @author  软工小队
 */
 public interface SysConfigMapper extends BaseMapper<SysConfig> {
 

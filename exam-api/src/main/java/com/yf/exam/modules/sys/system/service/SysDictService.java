@@ -2,7 +2,7 @@ package com.yf.exam.modules.sys.system.service;
 
 /**
  * 数据字典工具类
- * @author bool
+ * @author 软工小队
  */
 public interface SysDictService {
 

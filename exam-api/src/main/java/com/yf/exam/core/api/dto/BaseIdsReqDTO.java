@@ -10,8 +10,7 @@ import java.util.List;
 
 /**
  * 通用ID列表类操作，用于批量删除、修改状态等
- * @author bool 
- * @date 2019-08-01 19:07
+ * @author 软工小队
  */
 @Data
 @ApiModel(value="删除参数", description="删除参数")

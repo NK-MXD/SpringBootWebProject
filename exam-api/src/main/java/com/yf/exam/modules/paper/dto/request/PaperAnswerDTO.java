@@ -7,7 +7,7 @@ import lombok.Data;
 import java.util.List;
 
 /**
- * @author bool
+ * @author 软工小队
  */
 @Data
 @ApiModel(value="查找试卷题目详情请求类", description="查找试卷题目详情请求类")

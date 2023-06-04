@@ -147,6 +147,14 @@ export const asyncRoutes = [
       },
 
       {
+        path: 'exam/result/:id',
+        component: () => import('@/views/paper/exam/correctresult'),
+        name: 'CorrectExam',
+        meta: { title: '考卷批改', noCache: true, activeMenu: '/online/exam'},
+        hidden: true
+      },
+
+      {
         path: 'exam/records',
         component: () => import('@/views/user/exam/my'),
         name: 'ListMyExam',
@@ -297,7 +305,7 @@ export const asyncRoutes = [
         path: 'depart',
         component: () => import('@/views/sys/depart'),
         name: 'SysDepart',
-        meta: { title: '部门管理', icon: 'tree' }
+        meta: { title: '高校管理', icon: 'tree' }
       },
 
       {

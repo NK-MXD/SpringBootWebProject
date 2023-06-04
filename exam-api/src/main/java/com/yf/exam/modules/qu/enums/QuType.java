@@ -3,8 +3,7 @@ package com.yf.exam.modules.qu.enums;
 
 /**
  * 题目类型
- * @author bool 
- * @date 2019-10-30 13:11
+ * @author 软工小队
  */
 public interface QuType {
 

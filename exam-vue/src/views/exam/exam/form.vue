@@ -480,12 +480,12 @@ export default {
         row.totalRadio = e.radioCount
         row.totalMulti = e.multiCount
         row.totalJudge = e.judgeCount
-        row.textJudge = e.textCount
+        row.totalText = e.textCount
       } else {
         row.totalRadio = 0
         row.totalMulti = 0
         row.totalJudge = 0
-        row.textJudge = 0
+        row.totalText = 0
       }
     }
 

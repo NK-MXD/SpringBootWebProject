@@ -49,6 +49,22 @@ export function paperResult(data) {
 }
 
 /**
+ * 更改题目分数
+ * @param data
+ */
+export function ChangeScore(data) {
+  return post('/exam/api/paper/paper/score-change', data)
+}
+
+/**
+ * 更改试卷分数
+ * @param data
+ */
+export function ChangeUserScore(data) {
+  return post('/exam/api/paper/paper/userscore-change', data)
+}
+
+/**
  * 错题训练
  * @param data
  */

@@ -11,11 +11,11 @@
           {{ user.role }}
         </pan-thumb>
       </div>
-      <div class="box-center">
-        <div class="user-name text-center">姓名：{{ user.name }}</div>
-        <div class="user-name text-center">学校：{{ user.departId }}</div>
-        <div class="user-name text-center">电话号码：{{ user.phone }}</div>
-        <div class="user-name text-center">身份证号：{{ user.chnid }}</div>
+      <div class="box-left">
+        <div class="user-name text-left" style="margin-bottom: 20px;">姓名：{{ user.name }}</div>
+        <div class="user-name text-left" style="margin-bottom: 20px;">学校：{{ user.departId }}</div>
+        <div class="user-name text-left" style="margin-bottom: 20px;">电话号码：{{ user.phone }}</div>
+        <div class="user-name text-left" style="margin-bottom: 20px;">身份证号：{{ user.chnid }}</div>
         <!-- <div class="user-role text-center text-muted">{{ user.role | uppercaseFirst }}</div> -->
       </div>
     </div>

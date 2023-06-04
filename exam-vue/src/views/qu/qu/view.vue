@@ -19,7 +19,6 @@
           </el-checkbox-group>
         </div>
 
-<<<<<<< HEAD
         <div v-if="quData.quType === 4">
           <div>
             <el-input v-model="textarea"></el-input>
@@ -28,8 +27,6 @@
             {{ an.content }}
           </el-input> -->
         </div>
-=======
->>>>>>> master
         
 
       </div>
@@ -46,7 +43,7 @@
       选项解析：
       <div v-for="an in quData.answerList" v-if="an.analysis" class="qu-analysis-line">
         <p style="color: #555;">{{ an.content }}：</p>
-        <p style="color: #1890ff;">{{ an.analysis }}</p>
+        <p style="color: #673386;">{{ an.analysis }}</p>
       </div>
       <p v-if="analysisCount === 0">暂无选项解析</p>
 

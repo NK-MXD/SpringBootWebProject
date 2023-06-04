@@ -1,13 +1,13 @@
 <template>
   <div class="app-container">
     <div v-if="user">
-      <el-row :gutter="20">
+      <el-row :gutter="20" style="display: flex;">
 
-        <el-col :span="6" :xs="24">
+        <el-col :span="18" :xs="24" style="flex-grow: 1;">
           <user-card :user="user" />
         </el-col>
 
-        <el-col :span="18" :xs="24">
+        <el-col :span="6" :xs="24" style="flex-grow: 1;">
           <el-card>
             <el-tabs v-model="activeTab">
               <el-tab-pane label="修改资料" name="account">
@@ -16,7 +16,7 @@
             </el-tabs>
           </el-card>
         </el-col>
-
+        
       </el-row>
     </div>
   </div>

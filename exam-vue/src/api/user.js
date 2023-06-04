@@ -4,6 +4,10 @@ export function login(data) {
   return post('/exam/api/sys/user/login', data)
 }
 
+export function getDetail(data) {
+  return post('/exam/api/sys/user/detail', data)
+}
+
 export function getInfo(token) {
   return post('/exam/api/sys/user/info?token=' + token)
 }

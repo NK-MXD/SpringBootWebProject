@@ -28,7 +28,6 @@
         <p v-if="item.image!=null && item.image!=''">
           <el-image :src="item.image" style="max-width:100%;" />
         </p>
-
         <div v-if="item.quType === 1 || item.quType===3">
           <el-radio-group v-model="radioValues[item.id]">
             <el-radio v-for="an in item.answerList" :label="an.id">

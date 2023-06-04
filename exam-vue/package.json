@@ -1,8 +1,8 @@
 {
   "name": "yf-exam-lite",
-  "version": "1.8.0",
-  "description": "云帆学习考试系统",
-  "author": "18365918@qq.com",
+  "version": "1.0.0",
+  "description": "CET6考试报名系统",
+  "author": "软工小队",
   "scripts": {
     "dev": "vue-cli-service serve",
     "build:prod": "vue-cli-service build",

@@ -12,8 +12,7 @@ import java.util.List;
 * 问题题目请求类
 * </p>
 *
-* @author  
-* @since 2020-05-25 13:23
+* @author  软工小队
 */
 @Data
 @ApiModel(value="试题题库批量操作类", description="试题题库批量操作类")

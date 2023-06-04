@@ -14,7 +14,6 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  * 鉴权登录拦截器
- * @author bool
  */
 @Slf4j
 public class JwtFilter extends BasicHttpAuthenticationFilter {

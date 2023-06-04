@@ -18,7 +18,7 @@ import java.util.Properties;
 
 /**
  * 自动给创建时间个更新时间加值
- * @author bool
+ * @author 软工小队
  */
 @Intercepts(value = {@Signature(type = Executor.class, method = "update", args = {MappedStatement.class, Object.class})})
 public class UpdateInterceptor extends AbstractSqlParserHandler implements Interceptor {

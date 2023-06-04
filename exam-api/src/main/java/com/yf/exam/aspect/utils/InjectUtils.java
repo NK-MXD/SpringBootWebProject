@@ -12,8 +12,7 @@ import java.lang.reflect.Field;
 
 /**
  * 注入工具类
- * @author bool
- * @date 2019-07-17 09:32
+ * @author 软工小队
  */
 @Log4j2
 @Component

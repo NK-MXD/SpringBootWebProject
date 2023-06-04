@@ -11,8 +11,7 @@ import java.io.Serializable;
 * 部门信息数据传输类
 * </p>
 *
-* @author  
-* @since 2020-09-02 17:25
+* @author  软工小队
 */
 @Data
 @ApiModel(value="部门信息", description="部门信息")

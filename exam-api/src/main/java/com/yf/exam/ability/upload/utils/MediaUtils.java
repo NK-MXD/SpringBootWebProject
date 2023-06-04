@@ -7,8 +7,7 @@ import java.util.Map;
 
 /**
  * 媒体工具，判断媒体类型
- * @author bool 
- * @date 2019-11-14 16:21
+ * @author 软工小队
  */
 public class MediaUtils {
 

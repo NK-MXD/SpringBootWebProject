@@ -14,8 +14,7 @@ import java.util.List;
 * 试卷考题备选答案业务类
 * </p>
 *
-* @author  
-* @since 2020-05-25 16:33
+* @author  软工小队
 */
 public interface PaperQuAnswerService extends IService<PaperQuAnswer> {
 

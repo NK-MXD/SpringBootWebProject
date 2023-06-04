@@ -23,8 +23,7 @@ import org.springframework.util.StringUtils;
 * 语言设置 服务实现类
 * </p>
 *
-* @author  
-* @since 2020-05-27 17:56
+* @author  软工小队
 */
 @Service
 public class UserBookServiceImpl extends ServiceImpl<UserBookMapper, UserBook> implements UserBookService {

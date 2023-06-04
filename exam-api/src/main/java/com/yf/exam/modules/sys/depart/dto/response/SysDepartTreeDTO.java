@@ -12,8 +12,7 @@ import java.util.List;
 * 部门树结构响应类
 * </p>
 *
-* @author  
-* @since 2020-09-02 17:25
+* @author  软工小队
 */
 @Data
 @ApiModel(value="部门树结构响应类", description="部门树结构响应类")

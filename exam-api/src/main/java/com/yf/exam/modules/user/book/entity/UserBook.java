@@ -14,8 +14,7 @@ import java.util.Date;
 * 错题本实体类
 * </p>
 *
-* @author  
-* @since 2020-05-27 17:56
+* @author  软工小队
 */
 @Data
 @TableName("el_user_book")

@@ -12,8 +12,7 @@ import java.util.Date;
 * 问题题目请求类
 * </p>
 *
-* @author  
-* @since 2020-05-25 13:23
+* @author  软工小队
 */
 @Data
 @ApiModel(value="问题题目", description="问题题目")

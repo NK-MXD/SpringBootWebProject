@@ -7,7 +7,7 @@ import org.apache.shiro.SecurityUtils;
 
 /**
  * 用户静态工具类
- * @author bool
+ * @author 软工小队
  */
 public class UserUtils {
 

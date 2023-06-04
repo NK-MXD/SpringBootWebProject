@@ -9,8 +9,7 @@ import lombok.Data;
 * 考试分页响应类
 * </p>
 *
-* @author  
-* @since 2020-07-25 16:18
+* @author  软工小队
 */
 @Data
 @ApiModel(value="在线考试分页响应类", description="在线考试分页响应类")

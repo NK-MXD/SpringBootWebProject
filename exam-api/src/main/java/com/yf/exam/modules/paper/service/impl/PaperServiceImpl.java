@@ -53,8 +53,7 @@ import java.util.*;
 * 语言设置 服务实现类
 * </p>
 *
-* @author 聪明笨狗
-* @since 2020-05-25 16:33
+* @author 软工小队
 */
 @Service
 public class PaperServiceImpl extends ServiceImpl<PaperMapper, Paper> implements PaperService {
@@ -355,7 +354,7 @@ public class PaperServiceImpl extends ServiceImpl<PaperMapper, Paper> implements
         paper.setUpdateTime(new Date());
         paper.setQualifyScore(exam.getQualifyScore());
         paper.setState(PaperState.ING);
-        paper.setHasText(false);
+        paper.setHasText(true);
 
         // 截止时间
         Calendar cl = Calendar.getInstance();

@@ -16,8 +16,7 @@ import java.util.List;
 * 问题题目业务类
 * </p>
 *
-* @author  
-* @since 2020-05-25 13:23
+* @author  软工小队
 */
 public interface QuService extends IService<Qu> {
 

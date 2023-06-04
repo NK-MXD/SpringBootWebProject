@@ -15,8 +15,7 @@ import java.util.Date;
 * 考试数据传输类
 * </p>
 *
-* @author  
-* @since 2020-07-25 16:18
+* @author  软工小队
 */
 @Data
 @ApiModel(value="考试", description="考试")

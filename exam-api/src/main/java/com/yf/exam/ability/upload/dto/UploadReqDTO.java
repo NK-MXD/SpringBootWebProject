@@ -9,8 +9,7 @@ import org.springframework.web.multipart.MultipartFile;
 
 /**
  * 文件上传请求类
- * @author 
- * @date 2019-12-26 17:54
+ * @author 软工小队
  */
 @Data
 @ApiModel(value="文件上传参数", description="文件上传参数")

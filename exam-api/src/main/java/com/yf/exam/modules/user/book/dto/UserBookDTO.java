@@ -12,8 +12,7 @@ import java.util.Date;
 * 错题本请求类
 * </p>
 *
-* @author  
-* @since 2020-05-27 17:56
+* @author  软工小队
 */
 @Data
 @ApiModel(value="错题本", description="错题本")

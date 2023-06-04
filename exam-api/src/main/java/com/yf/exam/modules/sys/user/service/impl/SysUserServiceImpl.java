@@ -39,8 +39,7 @@ import java.util.List;
 * 语言设置 服务实现类
 * </p>
 *
-* @author  
-* @since 2020-04-13 16:57
+* @author  软工小队
 */
 @Service
 public class SysUserServiceImpl extends ServiceImpl<SysUserMapper, SysUser> implements SysUserService {

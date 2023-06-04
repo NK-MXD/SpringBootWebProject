@@ -19,8 +19,7 @@ import java.util.Date;
 * 考试记录业务实现类
 * </p>
 *
-* @author  
-* @since 2020-09-21 15:13
+* @author  软工小队
 */
 @Service
 public class UserExamServiceImpl extends ServiceImpl<UserExamMapper, UserExam> implements UserExamService {

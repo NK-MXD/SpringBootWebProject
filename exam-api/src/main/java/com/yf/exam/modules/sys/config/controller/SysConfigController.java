@@ -20,8 +20,7 @@ import org.springframework.web.bind.annotation.RestController;
 * 通用配置控制器
 * </p>
 *
-* @author  
-* @since 2020-04-17 09:12
+* @author  软工小队
 */
 @Api(tags={"通用配置"})
 @RestController

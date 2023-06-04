@@ -17,7 +17,7 @@ import java.util.concurrent.ThreadPoolExecutor;
 
 /**
  * 任务调度配置
- * @author bool
+ * @author 软工小队
  */
 @Log4j2
 @Configuration

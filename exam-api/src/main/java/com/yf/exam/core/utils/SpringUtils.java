@@ -8,8 +8,7 @@ import org.springframework.stereotype.Component;
 /**
  * Spring获取工具
  *
- * @author bool
- * @date 2019-12-09 15:55
+ * @author 软工小队
  */
 @Component
 public class SpringUtils implements ApplicationContextAware {

@@ -43,8 +43,7 @@ import java.util.List;
 * 问题题目控制器
 * </p>
 *
-* @author  
-* @since 2020-05-25 13:25
+* @author  软工小队
 */
 @Api(tags={"问题题目"})
 @RestController

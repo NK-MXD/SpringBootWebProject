@@ -17,8 +17,7 @@ import com.yf.exam.modules.paper.entity.Paper;
 * 试卷业务类
 * </p>
 *
-* @author  
-* @since 2020-05-25 16:33
+* @author  软工小队
 */
 public interface PaperService extends IService<Paper> {
 

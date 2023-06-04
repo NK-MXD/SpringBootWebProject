@@ -7,10 +7,9 @@ import java.util.GregorianCalendar;
 
 /**
  * 日期处理工具类
- * ClassName: DateUtils <br/>
- * date: 2018年12月13日 下午6:34:02 <br/>
+ * ClassName: DateUtils
  *
- * @author Bool
+ * @author 软工小队
  * @version
  */
 public class DateUtils {

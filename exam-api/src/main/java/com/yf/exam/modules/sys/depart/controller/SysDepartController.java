@@ -29,8 +29,7 @@ import java.util.List;
 * 部门信息控制器
 * </p>
 *
-* @author  
-* @since 2020-09-02 17:25
+* @author  软工小队
 */
 @Api(tags={"部门信息"})
 @RestController

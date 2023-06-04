@@ -137,7 +137,7 @@
           <!-- 这里加一个判断: 如果是已经批阅的状态的话就是加一个查看的按钮, 如果是没有批改的话就加一个批改试卷的按钮 -->
           <template slot-scope="scope">
               <el-button v-if="scope.row.state===2" type="primary" size="mini" icon="el-icon-view" @click="handleExamDetail(scope.row.id)">试卷详情</el-button>
-              <el-button v-if="scope.row.state===1" type="primary" size="mini" icon="el-icon-edit" @click="handleExamDetail(scope.row.id)">进行批改</el-button>
+              <el-button v-if="scope.row.state===1" type="primary" size="mini" icon="el-icon-edit" @click="handleExamCorrect(scope.row.id)">进行批改</el-button>
           </template>
   
           </el-table-column>
@@ -227,6 +227,10 @@
       handleExamDetail(paperId) {
         this.paperId = paperId
         this.$router.push({ name: 'ShowExam', params: { id: this.paperId }})
+      },
+      handleExamCorrect(paperId) {
+        this.paperId = paperId
+        this.$router.push({ name: 'CorrectExam', params: { id: this.paperId }})
       }
     }
   }

@@ -7,8 +7,7 @@ import com.yf.exam.modules.exam.entity.ExamDepart;
 * 考试部门Mapper
 * </p>
 *
-* @author  
-* @since 2020-09-03 17:24
+* @author  软工小队
 */
 public interface ExamDepartMapper extends BaseMapper<ExamDepart> {
 

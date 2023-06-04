@@ -10,8 +10,7 @@ import java.util.List;
 * 考试部门业务类
 * </p>
 *
-* @author  
-* @since 2020-09-03 17:24
+* @author  软工小队
 */
 public interface ExamDepartService extends IService<ExamDepart> {
 

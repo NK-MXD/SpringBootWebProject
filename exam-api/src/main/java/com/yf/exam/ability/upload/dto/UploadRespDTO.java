@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 
 /**
  * 上传文件结果
- * @author bool
+ * @author 软工小队
  */
 @Data
 @AllArgsConstructor

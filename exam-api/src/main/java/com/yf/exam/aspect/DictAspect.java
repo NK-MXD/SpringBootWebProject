@@ -27,7 +27,7 @@ import java.util.List;
 /**
  * 数据字典AOP类，处理数据字典值
  *
- * @author bool
+ * @author 软工小队
  */
 @Aspect
 @Component

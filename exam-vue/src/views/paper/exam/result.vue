@@ -56,7 +56,7 @@
               答题结果：{{ myRadio[item.id] }}
             </el-col>
 
-            <el-col v-if="item.answered && item.isRight" style="text-align: right; color: #24da70;">
+            <!-- <el-col v-if="item.answered && item.isRight" style="text-align: right; color: #24da70;">
               得分： 
               <el-input-number v-model="item.actualScore" :min="0" :max="item.score" @change="saveScore(item)"></el-input-number>
             </el-col>
@@ -64,7 +64,7 @@
             <el-col v-if="!item.answered || (item.answered && !item.isRight)" style="text-align: right; color: #ff0000;">
               得分： 
               <el-input-number v-model="item.actualScore" :min="0" :max="item.score" @change="saveScore(item)"></el-input-number>
-            </el-col>
+            </el-col> -->
 
           </el-row>
 
@@ -82,12 +82,21 @@
             </p>
             <el-col style="color: #24da70">
               参考答案：
+              Nowadays, more and more people are choosing to live an environmentally friendly lifestyle. This is due to the increasing awareness of the impact that human activities have on the environment. People are becoming more conscious of the need to reduce their carbon footprint and live more sustainably.
+
+One of the ways in which people are choosing to live an environmentally friendly lifestyle is by reducing their use of plastic. Plastic is a major contributor to pollution, and it takes hundreds of years to decompose. People are now using reusable bags, water bottles, and straws to reduce their plastic consumption.
+
+Another way in which people are living an environmentally friendly lifestyle is by using renewable energy sources. Solar panels and wind turbines are becoming more common, and people are using them to power their homes and businesses. This reduces the amount of fossil fuels that need to be burned, which in turn reduces greenhouse gas emissions.
+
+People are also choosing to eat more plant-based diets, which are more sustainable and environmentally friendly than diets that are heavy in meat and dairy. Plant-based diets require less land, water, and other resources to produce, and they generate fewer greenhouse gas emissions.
+
+In conclusion, living an environmentally friendly lifestyle is becoming increasingly important in today's world. By reducing our use of plastic, using renewable energy sources, and eating more plant-based diets, we can all do our part to protect the environment and create a more sustainable future.
             </el-col>
 
-            <el-col style="text-align: right; color: #24da70;">
+            <!-- <el-col style="text-align: right; color: #24da70;">
               得分： 
-              <el-input-number v-model="item.actualScore" :min="0" :max="item.score"></el-input-number>
-            </el-col>
+              <el-input-number v-model="item.actualScore" :min="0" :max="item.score"  @change="saveScore(item)"></el-input-number>
+            </el-col> -->
 
           </el-row>
 
@@ -120,7 +129,7 @@
               答题结果：{{ myMulti[item.id].join(',') }}
             </el-col>
 
-            <el-col v-if="item.answered && item.isRight" style="text-align: right; color: #24da70;">
+            <!-- <el-col v-if="item.answered && item.isRight" style="text-align: right; color: #24da70;">
               得分： 
               <el-input-number v-model="item.actualScore" :min="0" :max="item.score" @change="saveScore(item)"></el-input-number>
             </el-col>
@@ -128,7 +137,7 @@
             <el-col v-if="!item.answered || (item.answered && !item.isRight)" style="text-align: right; color: #ff0000;">
               得分： 
               <el-input-number v-model="item.actualScore" :min="0" :max="item.score" @change="saveScore(item)"></el-input-number>
-            </el-col>
+            </el-col> -->
 
           </el-row>
         </div>
@@ -268,12 +277,12 @@ export default {
         createTime: paperData.createTime,
         departId: paperData.departId,
         examId: paperData.examId,
-        hasText: paperData.hasText,
+        hasText: true,
         id: paperData.id,
         limitTime: paperData.limitTime,
         objScore: paperData.objScore,
         qualifyScore: paperData.qualifyScore,
-        state: paperData.state,
+        state: 2,
         subjScore: paperData.subjScore,
         title: paperData.title,
         totalScore: paperData.totalScore,

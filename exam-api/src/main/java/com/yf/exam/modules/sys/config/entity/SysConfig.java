@@ -12,8 +12,7 @@ import lombok.Data;
 * 通用配置实体类
 * </p>
 *
-* @author  
-* @since 2020-04-17 09:12
+* @author  软工小队
 */
 @Data
 @TableName("sys_config")

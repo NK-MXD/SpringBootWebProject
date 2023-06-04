@@ -20,8 +20,7 @@ import java.util.Collections;
 
 /**
  * Swagger配置
- * @author bool
- * @date 2020/8/19 20:53
+ * @author 软工小队
  */
 @Configuration
 @EnableSwagger2

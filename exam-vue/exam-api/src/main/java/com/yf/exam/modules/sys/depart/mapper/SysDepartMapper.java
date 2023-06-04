@@ -10,7 +10,7 @@ import org.apache.ibatis.annotations.Param;
 
 /**
 * <p>
-* 部门信息Mapper
+* 高校信息Mapper
 * </p>
 *
 * @author  

@@ -26,12 +26,12 @@ import java.util.List;
 
 /**
 * <p>
-* 部门信息控制器
+* 高校信息控制器
 * </p>
 *
 * @author  软工小队
 */
-@Api(tags={"部门信息"})
+@Api(tags={"高校信息"})
 @RestController
 @RequestMapping("/exam/api/sys/depart")
 public class SysDepartController extends BaseController {

@@ -11,7 +11,7 @@ import java.util.List;
 
 /**
 * <p>
-* 部门信息业务类
+* 高校信息业务类
 * </p>
 *
 * @author  软工小队

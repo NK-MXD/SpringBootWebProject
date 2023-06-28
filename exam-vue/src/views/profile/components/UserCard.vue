@@ -12,8 +12,11 @@
         </pan-thumb>
       </div>
       <div class="box-center">
-        <div class="user-name text-center">{{ user.name }}</div>
-        <div class="user-role text-center text-muted">{{ user.role | uppercaseFirst }}</div>
+        <div class="user-name text-center">姓名：{{ user.name }}</div>
+        <div class="user-name text-center">学校：{{ user.departId }}</div>
+        <div class="user-name text-center">电话号码：{{ user.phone }}</div>
+        <div class="user-name text-center">身份证号：{{ user.chnid }}</div>
+        <!-- <div class="user-role text-center text-muted">{{ user.role | uppercaseFirst }}</div> -->
       </div>
     </div>
   </el-card>
@@ -21,6 +24,7 @@
 
 <script>
 import PanThumb from '@/components/PanThumb'
+import { getDetail } from '@/api/user'
 
 export default {
   components: { PanThumb },
@@ -32,9 +36,46 @@ export default {
           name: '',
           email: '',
           avatar: '',
-          roles: ''
+          roles: '',
+          departId: '',
+          phone: '',
+          chnid: '',
         }
       }
+    }
+  },
+  created() {
+    this.fetchUserData();
+  },
+  methods: {
+    fetchUserData() {
+      const data = {
+        chnid: this.user.chnid,
+        createTime: '',
+        departId: this.user.departId,
+        id: '',
+        password: '',
+        phone: this.user.phone,
+        realName: '',
+        roleIds: '',
+        salt: '',
+        state: 0,
+        updateTime: '',
+        userName: '',
+        username: this.user.name
+      }
+
+      getDetail(data).then(response => {
+        const userData = response.data;
+        this.user.name = userData.realName;
+        this.user.departId = userData.departId;
+        this.user.phone = userData.phone;
+        this.user.chnid = userData.chnid;
+        this.user.role = userData.roleName;
+        console.log('dsdsjidjwi'+userData);
+      }).catch(error => {
+        console.error(error);
+      });
     }
   }
 }

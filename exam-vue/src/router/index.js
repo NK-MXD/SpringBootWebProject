@@ -88,6 +88,7 @@ export const constantRoutes = [
       }
     ]
   }
+
 ]
 
 /**
@@ -115,7 +116,12 @@ export const asyncRoutes = [
       roles: ['student','sa']
     },
     children: [
-
+      {
+        path: 'application',
+        component: () => import('@/views/application/index'),
+        name: 'Application',
+        meta: { title: '考试报名', noCache: true, icon: 'guide' }
+      },
       {
         path: 'exam',
         component: () => import('@/views/paper/exam/list'),

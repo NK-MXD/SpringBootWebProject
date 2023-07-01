@@ -22,7 +22,7 @@ import java.util.Map;
 
 /**
 * <p>
-* 部门信息业务实现类
+* 高校信息业务实现类
 * </p>
 *
 * @author  

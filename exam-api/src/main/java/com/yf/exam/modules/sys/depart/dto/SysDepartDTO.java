@@ -8,13 +8,13 @@ import java.io.Serializable;
 
 /**
 * <p>
-* 部门信息数据传输类
+* 高校信息数据传输类
 * </p>
 *
 * @author  软工小队
 */
 @Data
-@ApiModel(value="部门信息", description="部门信息")
+@ApiModel(value="高校信息", description="高校信息")
 public class SysDepartDTO implements Serializable {
 
     private static final long serialVersionUID = 1L;

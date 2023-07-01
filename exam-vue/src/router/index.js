@@ -103,6 +103,28 @@ export const asyncRoutes = [
     meta: { title: '开始考试' },
     hidden: true
   },
+
+  {
+    path: '/signup',
+    component: Layout,
+    redirect: '/signup/application',
+    name: 'Online',
+    meta: {
+      title: '我的报名',
+      icon: 'list',
+      roles: ['student', 'sa']
+    },
+    children: [
+      {
+        path: 'application',
+        component: () => import('@/views/application/index'),
+        name: 'ExamOnline',
+        meta: { title: '考试报名', noCache: true, icon: 'repo' }
+      }
+    ]
+  },
+
+  
   
   {
     path: '/my',
@@ -112,22 +134,23 @@ export const asyncRoutes = [
     meta: {
       title: '我的考试',
       icon: 'list',
-      roles: ['student', 'sa']
+      roles: ['signedup-student', 'sa']
     },
     children: [
 
-      {
-        path: 'application',
-        component: () => import('@/views/application/index'),
-        name: 'ExamOnline',
-        meta: { title: '考试报名', noCache: true, icon: 'repo' }
-      },
+      // {
+      //   path: 'application',
+      //   component: () => import('@/views/application/index'),
+      //   name: 'ExamOnline',
+      //   meta: { title: '考试报名', noCache: true, icon: 'repo' }
+      // },
 
       {
         path: 'exam',
         component: () => import('@/views/paper/exam/list'),
         name: 'ExamOnline',
-        meta: { title: '在线考试', noCache: true, icon: 'guide' }
+        meta: { title: '在线考试', noCache: true, icon: 'guide' },
+        roles: ['signedup-student', 'sa']
       },
 
       {
@@ -135,7 +158,8 @@ export const asyncRoutes = [
         component: () => import('@/views/paper/exam/preview'),
         name: 'PreExam',
         meta: { title: '准备考试', noCache: true, activeMenu: '/my/exam' },
-        hidden: true
+        hidden: true,
+        roles: ['signedup-student', 'sa']
       },
 
       {
@@ -143,7 +167,8 @@ export const asyncRoutes = [
         component: () => import('@/views/paper/exam/result'),
         name: 'ShowExam',
         meta: { title: '考试结果', noCache: true, activeMenu: '/online/exam' },
-        hidden: true
+        hidden: true,
+        roles: ['signedup-student', 'sa']
       },
 
       {

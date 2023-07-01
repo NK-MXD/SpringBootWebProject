@@ -236,7 +236,7 @@ public class SysUserServiceImpl extends ServiceImpl<SysUserMapper, SysUser> impl
             user.setChnid(chnid);
         }
 
-        //修改部门信息
+        //修改高校信息
         if(!StringUtils.isBlank(reqDTO.getDepartId())){
             String departid = reqDTO.getDepartId();
             user.setDepartId(departid);

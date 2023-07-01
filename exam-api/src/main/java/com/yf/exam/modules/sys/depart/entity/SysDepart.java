@@ -9,7 +9,7 @@ import lombok.Data;
 
 /**
 * <p>
-* 部门信息实体类
+* 高校信息实体类
 * </p>
 *
 * @author  软工小队

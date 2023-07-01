@@ -1,0 +1,1004 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ab02ea98-d9ae-46fd-8f1e-71f662b87a8f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/logs/yf-exam-lite/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/yf-exam-lite/spring.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yf/exam/modules/sys/depart/controller/SysDepartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yf/exam/modules/sys/depart/controller/SysDepartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yf/exam/modules/sys/depart/dto/SysDepartDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yf/exam/modules/sys/depart/dto/SysDepartDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yf/exam/modules/sys/depart/entity/SysDepart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yf/exam/modules/sys/depart/entity/SysDepart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yf/exam/modules/sys/depart/mapper/SysDepartMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yf/exam/modules/sys/depart/mapper/SysDepartMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yf/exam/modules/sys/depart/service/SysDepartService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yf/exam/modules/sys/depart/service/SysDepartService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yf/exam/modules/sys/depart/service/impl/SysDepartServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yf/exam/modules/sys/depart/service/impl/SysDepartServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yf/exam/modules/sys/user/service/impl/SysUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yf/exam/modules/sys/user/service/impl/SysUserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/our_exam.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/our_exam.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/public/index.html" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/exam/controller/ExamController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="48" column="11" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/exam/service/ExamDepartService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/exam/service/ExamRepoService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/exam/service/ExamService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/exam/service/impl/ExamDepartServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/exam/service/impl/ExamRepoServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/exam/service/impl/ExamServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/sys/depart/controller/SysDepartController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="42" column="11" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/user/exam/controller/UserExamController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/public/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>\dashboard</find>
+      <find>/login</find>
+      <find>login</find>
+      <find>exam-vue</find>
+      <find>云帆</find>
+      <find>setIsRight</find>
+      <find>setScore</find>
+      <find>setRadioScore</find>
+      <find>setIs</find>
+      <find>log</find>
+      <find>log.debug</find>
+      <find>generateByRepo</find>
+      <find>QuType.RADIO获得score的值</find>
+      <find>processPaperQu</find>
+      <find>update</find>
+      <find>sumObjective</find>
+      <find>setActualScore</find>
+      <find>updateByKey</find>
+      <find>客观题</find>
+      <find>checkData</find>
+      <find>save</find>
+      <find>state</find>
+      <find>setState</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/resources/application-local.yml" />
+        <option value="$PROJECT_DIR$/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-1d98d7c8.d7a8d4a3.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-2d0f1194.e37275a7.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-2d230fe7.64a37c43.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-2d2109eb.2c1ae7ef.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-6abe7724.56f0436d.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-8acfda88.5a55ed8d.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-14ca1730.9495e461.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-29be97b1.6a3fde93.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-30ca8599.625e7aea.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-67de726a.5586ab90.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-88ffa5a0.91af42e1.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-151a66b4.fbf64cc4.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-232a4131.98d03a7e.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-403a4f94.388c2fec.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-2193b0d6.86415bc7.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-4175a80a.de9391b1.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-42333d6a.b37272cd.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-1765565f.c5e7f6e3.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-88205686.0e1f30b4.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-a5ccf0f2.e101e80e.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-a5f84710.c51d67ef.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-ab13d2fa.73955774.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-ba8dbfe2.0a82d9af.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-bbd00978.e336ceb5.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-ce337f74.7b3b310d.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-cf77194c.0330624b.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-d875fac6.cf42dcd7.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-elementUI.93e9ea8b.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/static/js/chunk-libs.ad80885e.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/index.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yf/exam/config/ShiroConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/static/js/app.9603a9ac.js" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yf/exam/modules/paper/entity/Paper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yf/exam/modules/paper/service/impl/PaperServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yf/exam/modules/paper/entity/PaperQu.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yf/exam/modules/sys/depart/controller/SysDepartController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/public/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\softwareSpace\Evironment\idea\repository" />
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+        <option name="userSettingsFile" value="D:\softwareSpace\idea\IntelliJ IDEA 2019.1.2\plugins\maven\lib\maven3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="17" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="exam-api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="exam-api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="162" />
+    <option name="y" value="82" />
+    <option name="width" value="1718" />
+    <option name="height" value="1774" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="exam-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exam-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exam-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exam-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exam-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exam-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exam-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exam-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exam-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exam-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="exam" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exam-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exam-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="exam" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exam-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exam-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="exam" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="paper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exam-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exam-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="exam" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="qu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exam-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exam-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="exam" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="repo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exam-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exam-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="exam" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="sys" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exam-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exam-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="exam" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="sys" type="462c0819:PsiDirectoryNode" />
+              <item name="depart" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exam-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exam-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="exam" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="sys" type="462c0819:PsiDirectoryNode" />
+              <item name="depart" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exam-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exam-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="exam" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exam-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exam-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="exam" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exam-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exam-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="exam" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exam-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exam-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="exam" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="exam" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exam-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exam-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="exam" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="exam" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exam-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exam-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exam-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exam-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exam-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exam-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="ExamApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="exam-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yf.exam.ExamApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../../../ideaPro/computerStructure/chisel-design-for-student" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../ideaPro/computerStructure/chisel-design-for-teacher" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ab02ea98-d9ae-46fd-8f1e-71f662b87a8f" name="Default Changelist" comment="" />
+      <created>1683980127916</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1683980127916</updated>
+      <workItem from="1683980131281" duration="503000" />
+      <workItem from="1683981181391" duration="1961000" />
+      <workItem from="1684566187274" duration="8046000" />
+      <workItem from="1685444621838" duration="8443000" />
+      <workItem from="1685532660408" duration="2801000" />
+      <workItem from="1685535524859" duration="5716000" />
+      <workItem from="1685619103714" duration="262000" />
+      <workItem from="1685850713215" duration="1757000" />
+      <workItem from="1685881301312" duration="4863000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="34352000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-6" y="18" width="1453" height="889" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2512563" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3648834" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32921812" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.23546302" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/exam/entity/ExamDepart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-48">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/core/utils/excel/ExportExcel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2873">
+          <caret line="204" column="8" selection-start-line="204" selection-start-column="8" selection-end-line="204" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/exam/mapper/ExamRepoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/exam/mapper/ExamDepartMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/exam/entity/ExamRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="51" column="30" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/ExamApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="49" column="28" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="161" column="30" selection-start-line="161" selection-start-column="24" selection-end-line="161" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/exam/dto/ExamRepoDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/exam/mapper/ExamMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/core/api/dto/BaseDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/paper/dto/request/PaperAnswerDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/paper/dto/request/PaperQuQueryDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/paper/entity/PaperQuAnswer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="48" column="7" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/paper/entity/PaperQu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="64" column="7" selection-start-line="64" selection-start-column="7" selection-end-line="64" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/paper/mapper/PaperMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/softwareSpace/Evironment/idea/repository/com/baomidou/mybatis-plus-extension/3.4.1/mybatis-plus-extension-3.4.1.jar!/com/baomidou/mybatisplus/extension/service/impl/ServiceImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1785">
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/paper/service/impl/PaperQuServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="72" column="50" selection-start-line="72" selection-start-column="50" selection-end-line="72" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/qu/dto/export/QuExportDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="25" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/qu/service/impl/QuServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1119">
+          <caret line="188" column="24" lean-forward="true" selection-start-line="188" selection-start-column="24" selection-end-line="188" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/paper/service/impl/PaperQuAnswerServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-192">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/paper/service/impl/PaperServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="509" column="23" selection-start-line="509" selection-start-column="23" selection-end-line="509" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/paper/entity/Paper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1581">
+          <caret line="100" selection-start-line="100" selection-end-line="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/paper/enums/PaperState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/exam/entity/Exam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="31" column="7" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/paper/enums/ExamState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/paper/mapper/PaperQuAnswerMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/paper/mapper/PaperQuMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/softwareSpace/Evironment/idea/repository/com/baomidou/mybatis-plus-core/3.4.1/mybatis-plus-core-3.4.1.jar!/com/baomidou/mybatisplus/core/mapper/BaseMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/paper/service/PaperQuService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/aspect/mybatis/QueryInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/aspect/mybatis/UpdateInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/aspect/utils/InjectUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/config/ScheduledConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/config/CorsConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/config/MybatisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/user/book/controller/UserBookController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/sys/user/controller/SysRoleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/qu/controller/QuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/paper/controller/PaperController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-417">
+          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/exam/controller/ExamController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="48" column="11" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/exam/service/ExamDepartService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/exam/service/ExamRepoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/exam/service/ExamService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/exam/service/impl/ExamDepartServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/exam/service/impl/ExamRepoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/exam/service/impl/ExamServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/sys/depart/controller/SysDepartController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="42" column="11" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yf/exam/modules/user/exam/controller/UserExamController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
